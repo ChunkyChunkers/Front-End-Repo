@@ -1,0 +1,44 @@
+
+  a:link, a:visited {
+    background-color: blue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: darkblue ;
+  }
+a:link, a:visited{
+    border-radius: 25px;
+    border: 2px solid #5221ad;
+    padding: 15px;
+    width: 100px;
+    height: 1px;
+}
+button {
+  background-color: lightblue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+button{
+  border-radius: 25px;
+  border: 2px solid #5221ad;
+  padding: 15px;
+  width: 100px;
+  height: 1px;
+  text-align: center;
+}
+table, th, td
+{
+  border: 1px  solid darkblue;
+}
+table
+{
+  width: 100%;
+}
