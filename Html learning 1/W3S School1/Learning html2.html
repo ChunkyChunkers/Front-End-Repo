@@ -7,8 +7,8 @@
 			rel="icon"
 			type="image/x-icon"
 			href="/Image folder/android-chrome-512x512.png"
-		>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<!--Links 2-->
@@ -25,36 +25,42 @@
 
 		<h2 id="b1">Testing boookmarks</h2>
 		<a href="default.html">Home</a>
-		<img
+		
+		<div class="Map">
+			<img
 			src="/Image folder/Map test image.jpg "
 			alt="Workplace"
 			usemap="#workmap"
 		/>
-		<map name="workmap">
-			<area
-				shape="rect"
-				coords="31, 45, 271, 348"
-				alt="Computer"
-				href="Computer.html"
-				onclick="myFunction1"
-				()
-			/>
-			<area
-				shape="rect"
-				coords="290, 171, 335, 250"
-				alt="Phone"
-				href="Phone.html"
-				onclick="myFunction2"
-				()
-			/>
-			<area
-				shape="circle"
-				coords="337, 300, 44"
-				alt="Cofffe"
-				href="Coffee.html"
-				onclick="myFunction()"
-			/>
-		</map>
+			
+			<map name="workmap">
+				<area
+					shape="rect"
+					coords="31, 45, 271, 348"
+					alt="Computer"
+					href="Computer.html"
+					onclick="myFunction1()"
+				/>
+				<area
+					shape="rect"
+					coords="290, 171, 335, 250"
+					alt="Phone"
+					href="Phone.html"
+					onclick="myFunction2()"
+				/>
+				<area
+					shape="circle"
+					coords="337, 300, 44"
+					alt="Cofffe"
+					href="Coffee.html"
+					onclick="myFunction()"
+				/>
+			</map>
+			<p>
+				Some loren ipsum bullshitSome loren ipsum bullshitSome loren ipsum bullshitSome loren ipsum bullshitSome loren ipsum bullshit
+				Some loren ipsum bullshitSome loren ipsum bullshitSome loren ipsum bullshitv
+			</p>
+		</div>
 
 		<!--picture not working-->
 
@@ -70,8 +76,32 @@
 		<!--Not Working ask Isaac-->
 		<script>
 			function myFunction() {
-				alert("You clicked the Computer!")
+				alert("You clicked the Coffee!")
+			}
+			function myFunction1() {
+				alert("You clicked the Computer")
+			}
+			function myFunction2() {
+				alert("You cicked the Phone")
 			}
 		</script>
-	</body>
+		<br>
+
+		<h2>The picture Element</h2>
+
+		<picture>
+		  <source media="(min-width: 650px)" srcset="img_food.jpg">
+		  <source media="(min-width: 465px)" srcset="/Image folder/">
+		  <img src="img_girl.jpg" style="width:auto;">
+		</picture>
+		
+		<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+		The browser looks for the first source element where the media query matches the user's current viewport width,
+		and fetches the image specified in the srcset attribute.</p>
+		
+		<p>The img element is required as the last child tag of the picture declaration block.
+		The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+		</p>
+		
+		<p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
 </html>
