@@ -46,15 +46,6 @@ button{
   justify-content: center !important;
   align-items: center;
 }
-table, th, td
-{
-  border: 1px  solid darkblue;
-}
-table
-{
-  width: 100%;
-}
-
 .emi{
   display: flex;
   align-items: center;
@@ -85,4 +76,13 @@ footer {
 .output {
   background: #eee;
   position: relative;
+}
+table, th, td
+{
+  border: 1px  solid rgb(174, 174, 211);
+  border-collapse: collapse;
+}
+table
+{
+  width: 100%;
 }
