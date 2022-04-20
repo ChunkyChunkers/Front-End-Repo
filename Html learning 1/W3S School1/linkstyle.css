@@ -17,6 +17,9 @@ a:link, a:visited{
     padding: 15px;
     width: 100px;
     height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button {
   background-color: lightblue;
@@ -40,7 +43,7 @@ button:hover
 }
 button{
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
 }
 table, th, td
@@ -50,4 +53,11 @@ table, th, td
 table
 {
   width: 100%;
+}
+
+.emi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }

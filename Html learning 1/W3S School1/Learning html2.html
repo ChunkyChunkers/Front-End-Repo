@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en-us">
+	<head>
+		<title>Html Learning</title>
+		<link rel="stylesheet" href="linkstyle.css" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/Image folder/android-chrome-512x512.png"
+		>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<!--Links 2-->
+		<div class="emi">
+			<a href="https://www.google.com/doodles/" target="blank">site test</a>
+			<a href="https://www.google.com/doodles/" target="_blank">HTML Images</a>
+			<a href="#b1"> Bookmark Test</a>
+			<button
+				onclick="document.location= 'http://127.0.0.1:5500/Html%20learning%201/Tables%20using%20html.html'"
+			>
+				Previous page
+			</button>
+		</div>
 
-    <head>
-        <title>
-            Html Learning
-        </title>
-        <link rel="stylesheet" href="linkstyle.css" />
+		<h2 id="b1">Testing boookmarks</h2>
+		<a href="default.html">Home</a>
+		<img
+			src="/Image folder/Map test image.jpg "
+			alt="Workplace"
+			usemap="#workmap"
+		/>
+		<map name="workmap">
+			<area
+				shape="rect"
+				coords="31, 45, 271, 348"
+				alt="Computer"
+				href="Computer.html"
+				onclick="myFunction1"
+				()
+			/>
+			<area
+				shape="rect"
+				coords="290, 171, 335, 250"
+				alt="Phone"
+				href="Phone.html"
+				onclick="myFunction2"
+				()
+			/>
+			<area
+				shape="circle"
+				coords="337, 300, 44"
+				alt="Cofffe"
+				href="Coffee.html"
+				onclick="myFunction()"
+			/>
+		</map>
 
-    </head>
-    <body>
-        <!--Links 2-->
-        <a href="https://www.google.com/doodles/" target="blank">site test</a> 
-        <a href="https://www.google.com/doodles/" target="_blank">HTML Images</a> 
-        <a href="#b1"> Bookmark Test</a>
-        <button onclick="document.location= 'http://127.0.0.1:5500/Html%20learning%201/Tables%20using%20html.html'" >Previous page</button><br>
-        
-        <h2 id="b1">Testing boookmarks</h2>
-        <a href="default.html">Home</a>
-      <img src="/Image folder/Map test image.jpg " alt="Workplace" usemap="#workmap"> 
-      <map name="workmap">
-        <area shape="rect" coords="31, 45, 271, 348" alt="Computer" href="Computer.htm">
+		<!--picture not working-->
 
+		<picture>
+			<source
+				media="(min-width: 465px)"
+				src="/Image folder/Owari No Seraph.jpg"
+			/>
+			<source media="(min-width: 650px)" srcset="/Image folder/coffee.jpg" />
 
-      </map>
-        <!--table-->
-        <table>
-            <tr>
-              <th>Person 1</th>
-              <th>Person 2</th>
-              <th>Person 3</th>
-            </tr>
-            <tr>
-              <td>Emil</td>
-              <td>Tobias</td>
-              <td>Linus</td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>14</td>
-              <td>10</td>
-            </tr>
-          </table>
-    </body>
+			<img src="/Html learning 1/W3S School/img_girl.jpg" style="width: auto" />
+		</picture>
+		<!--Not Working ask Isaac-->
+		<script>
+			function myFunction() {
+				alert("You clicked the Computer!")
+			}
+		</script>
+	</body>
 </html>
