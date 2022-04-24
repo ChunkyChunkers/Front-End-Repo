@@ -77,12 +77,14 @@ footer {
   background: #eee;
   position: relative;
 }
-table, th, td
+table 
 {
-  border: 1px  solid rgb(174, 174, 211);
-  border-collapse: collapse;
+  
+  border: 1px  solid blueviolet; 
+  border-style: dotted;
 }
-table
-{
-  width: 100%;
+th, td {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #d3c5ec;
 }
