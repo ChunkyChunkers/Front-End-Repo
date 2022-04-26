@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "NunitoSans";
+	src: url(/Font/Nunito/NunitoSans-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+	font-family: "NunitoSans";
+	src: url(/Font/Nunito/NunitoSans-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+	font-family: "NunitoSans";
+	src: url(/Font/Nunito/NunitoSans-Light.ttf) format("truetype");
+    font-weight: lighter;
+}
+@font-face {
+	font-family: "MemphisRiver";
+	src: url(/Font/MemphisRiver-eZ43n.ttf) format("truetype");
+}
+.Header img
+{
+    height: 48px;
+    width: 48px;
+    display: block;
+    border: 0;
+    align-self: center;
+}
+
+.Header header{
+    height: 40px;
+    padding: 200px 0;
+
+    border-bottom: 1px solid #e7e7e7;
+    z-index: 99;
+    font-size: 16px;
+    width: 100%;
+    top: 0;
+    position: fixed; 
+    left: 0;
+    -webkit-font-smoothing: antialiased;
+    align-items: center;
+
+}
+.Header_link
+{
+    height: 40px;
+    border: solid 6px black;
+}
+header
+{
+    display: block;
+}
+
+    
+button, html{
+    height: 40px;
+    font-size: 14px;
+   background-color: rgba(18, 18, 23, .9);
+    line-height: 20px;
+    font-family: "NunitoSans";
+    -webkit-font-smoothing: antialiased;
+}
