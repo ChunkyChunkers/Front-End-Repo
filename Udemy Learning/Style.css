@@ -8,6 +8,11 @@
     src: url(/Font/MySoul-Regular.ttf) format("truetype");
     font-weight: normal;
 }
+@font-face {
+    font-family: "NunitoSans";
+    src: url(/Font/Nunito/NunitoSans-Regular.ttf) format("truetype");
+    font-weight: normal;
+}
 
 .Poem
 {
@@ -33,4 +38,10 @@ dialog
     background-color: blue ;
     border-radius: 25px;
     text-align: left;
+}
+.Teacher
+{
+        font-size: 14px;
+        font-family: NunitoSans;
+        color: darkred;
 }
