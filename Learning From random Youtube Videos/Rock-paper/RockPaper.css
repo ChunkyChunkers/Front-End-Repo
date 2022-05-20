@@ -1,0 +1,34 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    background: linear-gradient(to right, hsl(261, 76%, 42%), hsl(241, 98%, 45%), hsl(229, 82%, 63%), hsl(214, 73%, 83%));
+    position: relative;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 10vh;
+}
+
+.rockpaper {
+    font-family: 'Macondo';
+    font-size: 4vh;
+    padding: 2vh;
+    position: relative;
+}
+
+.Button {
+    font-size: 2.5vh;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+}
+
+.Button:hover,
+.Button:focus {
+    background-color: hsl(310, 76%, 6%);
+    color: lightcoral;
+    text-shadow: none;
+    border-color: hsl(310, 76%, 6%);
+}

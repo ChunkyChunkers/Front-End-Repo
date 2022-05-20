@@ -70,11 +70,13 @@ body {
     color: var(--clr-bg);
     text-shadow: none;
 }
+
 .neon-button:hover::before,
-.neon-button:focus::before{
+.neon-button:focus::before {
     opacity: 1;
 }
-.neon-button:hover::after, 
-.neon-button:focus::after{
+
+.neon-button:hover::after,
+.neon-button:focus::after {
     opacity: 1;
 }

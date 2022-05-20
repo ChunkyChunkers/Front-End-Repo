@@ -1,0 +1,2963 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            navigator.sayswho = (function(){
+                var ua= navigator.userAgent, tem,
+                M= ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+                if(/trident/i.test(M[1])){
+                    tem=  /\brv[ :]+(\d+)/g.exec(ua) || [];
+                    return 'IE '+(tem[1] || '');
+                }
+                if(M[1]=== 'Chrome'){
+                    tem= ua.match(/\b(OPR|Edge)\/(\d+)/);
+                    if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera');
+                }
+                M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+                if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
+                return M.join(' ');
+            })();
+
+                    </script>
+
+        <title>The Locked Door | Freida McFadden [McFadden, Freida] | download</title>
+<base href="/">
+
+                        <meta charset="utf-8">		                       
+                        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <meta name="title" content="The Locked Door | Freida McFadden [McFadden, Freida] | download">
+			<meta name="description" content="The Locked Door | Freida McFadden [McFadden, Freida] | download | Z-Library. Download books for free. Find books">
+			<meta name="robots" content="index,all">
+			<meta name="distribution" content="global">
+			<meta http-equiv="cache-control" content="no-cache">
+			<meta http-equiv="pragma" content="no-cache">
+
+                        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
+                        <link rel="icon" href="favicon.svg">
+                        <link rel="icon" type="image/svg+xml" href="/favicon-32x32.svg?v=2" sizes="32x32">
+                        <link rel="icon" type="image/svg+xml" href="/favicon-16x16.svg?v=2" sizes="16x16">
+                        <link rel="manifest" href="/manifest.json?v=1">
+                        <link rel="mask-icon" href="/safari-pinned-tab.svg?v=1" color="#5bbad5">
+                        <meta name="apple-mobile-web-app-title" content="Z-Library">
+                        <meta name="application-name" content="Z-Library">
+                        <meta name="theme-color" content="#ffffff">
+
+                        <meta name="propeller" content="49c350d528ba144cace841cac74260ab">
+                        <meta name="alfacoins-site-verification" content="5ef0e7b2483f15ef0e7b2484275ef0e7b24845d_ALFAcoins">
+	
+<!-- CSS SET -->
+<!-- JS SET --> 
+<link REL="SHORTCUT ICON" HREF="/favicon.ico?v=1">
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.xml" title="Search for books in the library Z-Library" />
+
+                    <link rel="stylesheet" type="text/css" href="/resources/build/global.css?0.403" />
+            <script type="text/javascript" src="/resources/build/global.js?0.403"></script>
+        <link rel="stylesheet" type="text/css" href="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.css?0.403" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/lightbox/jquery.lightbox-0.5.css?0.403" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/select2/select2.min.css?0.403" />
+<link rel="stylesheet" type="text/css" href="/resources/ext/flickity/flickity.css?0.403" />
+<link rel="stylesheet" type="text/css" href="/resources/css/components/z-booklists-carousel.css?0.403" />
+<link rel="stylesheet" type="text/css" href="/resources/css/pages/book-details.css?0.403" />
+<script type="text/javascript" src="/resources/ext/typeahead.js?0.403"></script>
+<script type="text/javascript" src="/resources/ext/bootstrap-tagsinput/bootstrap-tagsinput.min.js?0.403"></script>
+<script type="text/javascript" src="/resources/ext/lightbox/jquery.lightbox-0.5.min.js?0.403"></script>
+<script type="text/javascript" src="/resources/ext/select2/select2.min.js?0.403"></script>
+<script type="text/javascript" src="/resources/ext/flickity/flickity.min.js?0.403"></script>
+<script type="text/javascript" src="/resources/js/components/z-booklists-carousel.js?0.403"></script>
+<script type="text/javascript" src="/resources/js/custom_elements/z-readlist-card.js?0.403"></script>
+<script type="text/javascript" src="/resources/js/pages/book-details.js?0.403"></script>
+
+        
+        <script>
+            
+            const Config = {"domainHost":"ng1lib.org","BRegion":"africa","Country":"NG"};
+            const CurrentUser = new User(null);
+            const CurrentClientIP = "102.89.33.47";
+            const proxiesToCheck = []; //for google verification
+            const CurrentSiteMode = 'books';
+
+            i18next
+                .use(i18nextHttpBackend)
+                .init({
+                    lng: 'en',
+                    fallbackLng: 'en',
+                    backend: {
+                        loadPath: '/resources/build/locales/{{lng}}?v=4'
+                    }
+                })
+
+            $(document).ready(function() {
+                $('.tooltip-init').tooltip({html: true})
+
+                            })
+
+            $(document).on('focus', '.form-email-field', function() {
+                $(this).tooltip('hide')
+            })
+
+            $(document).on('change', '.form-email-field', function() {
+                const $input = $(this)
+                const email = $input.val()
+
+                $input.parents('.form-group').find('.form-error').remove()
+                $.each(["appzily.com","robhung.com","shackvine.com","robhung.com,","spruzme.com"], function(key, domain) {
+                    if (email.indexOf(domain) !== -1) {
+                        $input.tooltip({
+                            placement: 'top',
+                            trigger: 'manual',
+                            title: $input.data('message'),
+                        }).tooltip('show')
+                    }
+                })
+            })
+
+            $(document).on('focus', '.form-email-field', function() {
+                $(this).tooltip('hide')
+            })
+        </script>
+    </head>
+
+    <body style="margin:0px;padding:0px;" class="books/details">
+        <table class="super-puper-main-container" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <tr style="height:10px;">
+                    <td style="vertical-align: top;">
+                        <div class="container-fluid">
+                            
+
+<div class="row">
+    <div class="col-md-12">
+        <style>
+    div#colorBoxes
+    {
+        text-transform: capitalize;
+    }
+
+    div#colorBoxes ul li.active:nth-child(1)
+    {
+        border: 1px solid #378096;
+        box-shadow: 0 0 6px #7DBCCF;
+        border-top: 0px;
+    }
+
+    div#colorBoxes ul li.active:nth-child(2)
+    {
+        border: 1px solid #6e9b41;
+        box-shadow: 0 0 6px #a4e861;
+        border-top: 0px;
+    }
+</style>
+
+
+<div id="colorBoxes" class="darkShadow">
+    <ul>
+        <li style="background: #49afd0;" class="">
+            <a href="/" class="header-main-nav-link " data-mode="books">
+                <span class="hidden-xs">10,314,791 books</span>
+                <span class="visible-xs">books</span>
+            </a>
+        </li>
+
+        <li style="background: #8ecd51;">
+            <a href="https://booksc.org/" class="header-main-nav-link populate-preferred-domain" data-mode="articles">
+                <span class="hidden-xs">84,837,646 articles</span>
+                <span class="visible-xs">articles</span>
+            </a>
+        </li>
+
+        <li style="background: #90a5a8;" class="hidden-xs"><a href="https://z-lib.org/" class="populate-preferred-domain" data-mode="home">ZLibrary Home</a></li>
+        <li style="background: #90a5a8;" class="visible-xs"><a href="https://z-lib.org/" class="populate-preferred-domain" data-mode="home">Home</a></li>
+    </ul>
+</div>
+
+        <div role="navigation" class="navbar-default navbar-right" style="background-color: transparent;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" onclick="">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="clear: both;">
+                <ul class="nav navbar-nav navbar-right">
+                                                                <li class="dropdown">
+                            <a href="#" id="loginDDLink" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sign in <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="loginDDLink">
+                                <li><a class="populate-preferred-domain" data-mode="singlelogin" id="dropdownMenuLoginBtn" href="https://z-lib.org?from=ng1lib.org">Login</a></li>
+                                <li><a class="populate-preferred-domain" data-mode="singlelogin" id="dropdownMenuRegistrationBtn" href="https://singlelogin.app/registration.php">Registration</a></li>
+                            </ul>
+                        </li>
+                    
+                    <li>
+                    <a href="/howtodonate.php" style="color:#8EB46A;">Donate</a>                    </li>
+
+                    
+                    <!-- Admin menu dropdown -->
+                    
+                    <!-- Moderators menu dropdown -->
+                    
+                    <!-- Auth user menu dropdown -->
+                    
+                    <!-- Search menu dropdown -->
+                    <li class="dropdown"  id="quickSearchMenuDD">
+                        <a href="#" id="quickSearchMenuDD2" class="dropdown-toggle hidden-xs main-menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="/img/icon-magnifier.svg" style="width: 18px;">
+                        </a>
+                        <ul class="dropdown-menu" style="padding: 0; border-top-left-radius: 4px;box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); border: 1px solid rgba(0, 0, 0, .1);">
+                            <li>
+                                <form method="get" action="/s/" style="padding:20px;" name="quickSearch">
+                                    <input id="quickSearchInput" class="form-control" type="text" name="q" placeholder="Search for title, author, ISBN, publisher, md5..">
+                                    <button type="reset" class="button-search-reset" id="quickSearchReset">&times;</button>
+                                    <button type="submit" style="display: none;"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                    <script>
+                        $("#quickSearchMenuDD").on('shown.bs.dropdown', function(e){
+                            if(window.outerWidth > 768){
+                                $('#quickSearchInput').focus();
+                            }
+                        });
+                    </script>
+
+                    <!-- Site menu dropdown -->
+                    <li class="dropdown">
+                        <a href="#" id="main-menu-dropdown" class="dropdown-toggle hidden-xs main-menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            <img src="/img/icon-main-menu.svg" style="width: 18px;">
+                                                    </a>
+                        <ul class="dropdown-menu topmenu">
+                                                            <li><a href="/book-add.php"><span class="zlibicon-upload"></span> Add Book</a></li>
+                                <li><a href="/request.php"><span class="zlibicon-request"></span> Book Requests</a></li>
+                                <li><a href="/booklists"><span class="zlibicon-booklist"></span> Booklists</a></li>
+                                <li><a href="/category-list"><span class="zlibicon-categories"></span> Categories</a></li>
+                                <li><a href="/popular.php"><span class="zlibicon-popular"></span> Most Popular</a></li>
+                                                                                                                <li><a href="/recently.php"><span class="zlibicon-recently"></span> Recently Added</a></li>
+                                                        <li role="separator" class="divider"></li>
+                            <li><a href="/top-zlibrarians.php"><span class="zlibicon-top"></span> Top Z-Librarians</a></li>
+                            <li><a href="/blog/"><span class="zlibicon-blog"></span> Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style type="text/css">
+    .main-menu-item img {
+        opacity: 0.7;
+    }
+    .main-menu-item img:hover {
+        opacity: 1;
+    }
+</style>
+
+
+
+<script>
+    $(document).ready(function() {
+                    const booksDomains = ["ng1lib.org","b-ok.africa","b-ok.global","3lib.net","1lib.limited","1lib.education","bookshome.net","zlibrary.org","libsolutions.net","1lib.to"];
+            const articlesDomains = ["booksc.org","booksc.xyz","art1lib.org","art1lib.com","booksc.me"];
+            const Checker = DomainsChecker
+        
+        let stageSubdomain = '';
+        let subdomainPrefix = '';
+        const singleloginDomains = ["singlelogin.app","singlelogin.me","libsolutions.app","bookshome.info"];
+        const redirectorDomains = ["1lib.domains","libsolutions.domains","bookshome.world"];
+
+        const domainCheckSuccess = (domain, mode) => {
+            if (subdomainPrefix.length && domain[2] === '.') { // priority for subdomainPrefix
+                domain = domain.substr(3)
+            }
+
+            
+            $('.populate-preferred-domain[data-mode="' + mode + '"]').each(function() {
+                const uriPath = $(this).attr('href').replace(/^.*\/\/[^\/|\?]+/, '')
+                $(this).attr('href', '//' + stageSubdomain + subdomainPrefix + domain + uriPath)
+            })
+        }
+
+        const domainCheckError = (domain, mode) => {}
+
+        Checker(booksDomains, domainCheckSuccess, domainCheckError, 'books')
+        Checker(articlesDomains, domainCheckSuccess, domainCheckError, 'articles')
+        DomainsChecker(singleloginDomains, domainCheckSuccess, domainCheckError, 'singlelogin')
+        DomainsChecker(redirectorDomains, domainCheckSuccess, domainCheckError, 'redirector')
+    })
+</script>
+
+<script>
+    $("#bs-example-navbar-collapse-1").on('shown.bs.collapse', function(e){
+        $('#main-menu-dropdown').dropdown('toggle');
+        $('#main-menu-dropdown').attr('data-toggle', ''); // make it static
+
+        $('#admin-menu-dropdown').dropdown('toggle');
+        $('#admin-menu-dropdown').attr('data-toggle', ''); // make it static
+
+        $("#quickSearchMenuDD2").dropdown('toggle');
+        $('#quickSearchMenuDD2').attr('data-toggle', ''); // make it static
+
+        $("#profileMenu").dropdown('toggle');
+        $('#profileMenu').attr('data-toggle', ''); // make it static
+    });
+
+    $('document').ready(() => clearSearchButtonEvents('#quickSearchInput', '#quickSearchReset'));                       // быстрый поиск из шапки
+</script>                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="g-page-content">
+                        <div class="container" style="max-width: 1000px;padding-bottom: 40px;">
+                            <div class="row">
+                                <div class="col-md-12 itemFullText">
+                                    
+<style>
+    .adFixW iframe{
+        width:100%;
+    }
+</style>
+
+<div class="bcNav">
+    <a href="/" title="Ebook library ng1lib.org">Main</a> <i></i>
+        The Locked Door</div>
+
+<div class="cBox1">Something went wrong. Please try again</div>
+<div itemscope itemtype="http://schema.org/Book">
+    <div class="row cardBooks" style="overflow: hidden;">
+        <div class="col-sm-3 details-book-cover-container">
+            <div class="details-book-cover-content">
+                            <a style="padding: 0; text-decoration: none;" href="https://covers.zlibcdn2.com/covers/books/07/99/62/0799621ae552ded4234e37643f9323b9.jpg" class="lightbox details-book-cover checkBookDownloaded"  data-book_id="15468587" data-isbn="9788515308804,9798515308803,8515308800,B092RXXJDM,B096M1LDQQ" itemprop="image">
+                    <div class="z-book-cover">
+                        <img src="https://covers.zlibcdn2.com/covers299/books/07/99/62/0799621ae552ded4234e37643f9323b9.jpg" alt="Book cover The Locked Door" />
+                    </div>
+                </a>
+                                        </div>
+        </div>
+
+        <div class="col-sm-9">
+            <h1 itemprop="name" style="color: #000; line-height: 140%;">
+                The Locked Door            </h1>
+
+            <i><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Freida McFadden [McFadden">Freida McFadden [McFadden</a>, <a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Freida]">Freida]</a></i>
+
+                            <div class="book-rating-detail">
+                    <div class="book-rating ">
+                        <span class="book-rating-interest-score ">
+                            4.5                        </span> /
+                        <span class="book-rating-quality-score ">
+                            4.0                        </span>
+                    </div>
+                    <div class="book-comments-here"></div>
+                    <div class="bookmarks" style="display: none" data-book_id="15468587">
+                        <i class="icon-heart btn-save-for-later" title="Mark the book you like best or plan to download later"></i>
+                        <i class="icon-bookmark btn-booklists" title="Add the book to your personal themed book collection and share it with your community"></i>
+                    </div>
+                </div>
+
+            
+            <div class="book-choice-rating" data-visible="0" data-init="0">
+                <div class="overlay-post-score"><div id="bookChoiceRatingtFloatingSpinner"></div></div>
+                <div class="overlay"><div id="bookChoiceRatingSpinner"></div></div>
+                <div class="book-choice-interest-title">How much do you like this book?</div>
+                <div class="book-choice-interest-stars stars-list cursor-pointer" data-disabled="0" data-id="15468587" data-type="interest">
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                    <i class="book-rating-star"></i>
+                </div>
+
+                <div class="book-choice-quality-stub">
+                    <div class="book-choice-quality-title">What’s the quality of the file?</div>
+                    <div class="book-choice-quality-dmsg">Download the book for quality assessment</div>
+                </div>
+
+                <div class="book-choice-quality-title">
+                    <div>What’s the quality of the downloaded files?</div>
+                </div>
+                <div class="book-quality-rating-template">
+                    <div class="book-format-quality-rating">
+                        <div class="format-info">
+                            <span class="download-date"></span>
+                            <span class="extension"></span>
+                            <span class="size"></span>
+                        </div>
+                        <div class="book-choice-quality-stars stars-list cursor-pointer" data-disabled="0" data-id="" data-type="quality">
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                            <i class="book-rating-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                            <div style="padding:10px 0; font-size:10pt" id="bookDescriptionBox"  itemprop="reviewBody">
+                    <span>Some doors are locked for a reason…<br><br>While<br />
+ eleven-year-old Nora Davis was up in her bedroom doing homework, she <br />
+had no idea her father was killing women in the basement.<br><br>Until the day the police arrived at their front door.<br><br>Decades<br />
+ later, Nora’s father is spending his life behind bars, and Nora is a <br />
+successful surgeon with a quiet, solitary existence. Nobody knows her <br />
+father was a notorious serial killer. And she intends to keep it that <br />
+way.<br><br>Then Nora discovers one of her young female patients has <br />
+been murdered. In the same unique and horrific manner that her father <br />
+used to kill his victims.<br><br>Somebody knows who Nora is. Somebody <br />
+wants her to take the fall for this unthinkable crime. But she’s not a <br />
+killer like her father. The police can’t pin anything on her.<br><br>As long as they don’t look in her basement.</span></br></br></br></br></br></br></br></br></br></br></br></br>                </div>
+            
+            <div style="overflow: hidden; zoom: 1; margin-top: 30px;">
+                <div class="bookDetailsBox">
+                <div  class="bookProperty property_categories">
+                    <div class="property_label">Categories:</div>
+            <div class="property_value "><a href="/category/14/Fiction">Fiction</a></div></div>
+                <div  class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+            <div class="property_value ">2021</div></div>
+                <div  class="bookProperty property_publisher">
+                    <div class="property_label">Publisher:</div>
+            <div class="property_value ">Hollywood Upstairs Press</div></div>
+                <div  class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+            <div class="property_value text-capitalize">english</div></div>
+                <div  class="bookProperty property_pages">
+                    <div class="property_label">Pages:</div>
+            <div class="property_value "><span title="Pages paperback">311</span></div></div>
+                <div  class="bookProperty property_isbn 10">
+                    <div class="property_label">ISBN 10:</div>
+            <div class="property_value ">8515308800</div></div>
+                <div  class="bookProperty property_isbn 13">
+                    <div class="property_label">ISBN 13:</div>
+            <div class="property_value ">9798515308803</div></div>
+                <div  class="bookProperty property_isbn">
+                    <div class="property_label">ISBN:</div>
+            <div class="property_value ">B096M1LDQQ</div></div>
+                <div  class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+            <div class="property_value ">EPUB, 261 KB</div></div>
+                <div style="display: none;" class="bookProperty property_user_tags">
+                    <div class="property_label">Your tags:</div>
+            <div class="property_value "></div></div></div>            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; margin-bottom: 15px;">
+        <div class="details-buttons-container pull-left">
+            <div class="book-details-button">
+                
+                <div class="btn-group">
+                
+            <a class="btn btn-primary dlButton addDownloadedBook" href="/dl/15468587/76f12e" target="" data-book_id="15468587" data-isbn="9788515308804" rel="nofollow">
+                <i class="zlibicon-download"></i>
+                Download (epub, 261 KB)
+            </a>
+        
+                    <button id="btnCheckOtherFormats"
+                        type="button"
+                        data-toggle="dropdown"
+                        class="btn btn-primary dropdown-toggle dlDropdownBtn"
+                        data-check-formats="0"
+                        data-convertation-available="1"
+                    >
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li id="bookOtherFormatsContainer">
+                            <span class="dropdown-menu-muted" style="padding: 5px 19px 0; white-space: nowrap;">
+                                Checking other formats...
+                                <span id="bookOtherFormatsSpinnerContainer"></span>
+                            </span>
+                        </li>
+                        
+                <li role="separator" class="divider"></li>
+                <li><a href="javascript:void(0);" class="converterLink" data-book-id="15468587" data-convert_to="fb2">Convert to FB2</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="15468587" data-convert_to="pdf">Convert to PDF</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="15468587" data-convert_to="mobi">Convert to MOBI</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="15468587" data-convert_to="txt">Convert to TXT</a></li><li><a href="javascript:void(0);" class="converterLink" data-book-id="15468587" data-convert_to="rtf">Convert to RTF</a></li>
+                <li role="separator" class="divider"></li>
+                <li><span class="dropdown-menu-muted">Converted file can differ from the original. If possible, download the file in its original format.</span></li>
+            
+                    </ul>
+                </div>            </div>
+
+                        
+                        <div class="book-details-button">
+                <div class="btn-group" id="sendToEmailButtonBox">
+                    <button type="button" class="btn btn-default dropdown-toggle button-send-book" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Send-to-Kindle <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                                            </ul>
+                </div>
+            </div>
+            <div class="book-details-button">
+                <div class="btn-group" id="shareToButtonBox">
+                    <button type="button" class="btn btn-default dropdown-toggle button-send-book" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Send to <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                                            </ul>
+                </div>
+            </div>
+            
+            
+                    </div>
+        <div class="pull-right">
+                </div>
+        <div style="clear: both;"></div>
+    </div>
+
+    
+
+    <div class="cBox1" id="sentToEmailInfo" style="display:none;">
+        The file will be sent to your email address. It may take up to 1-5 minutes before you receive it.    </div>
+
+    <div class="cBox1" id="sentToEmailInfoKindle" style="display:none;">
+        The file will be sent to your Kindle account. It may takes up to 1-5 minutes before you received it.        <br><br>
+
+        <b>Please note</b>: you need to verify every book you want to send to your Kindle. Check your mailbox for the verification email from Amazon Kindle.    </div>
+
+    <div class="cBox1" id="sendToGoogleDriveMessage" style="display:none; position: relative;"></div>
+
+    
+    <div id="converterCurrentStatusesBoxContainer">
+        <div id="converterCurrentStatusesBox">
+                    </div>
+    </div>
+    <div id="convertationStatusTemplates">
+        <div class="status-new" data-job_id=""><div class="spinner-content"></div><div class="message">Conversion to <b class="text-uppercase extension"></b> is in progress</div></div>        <div class="status-error"><span class="zlibicon-close-circle status-icon"></span><div class="message">Conversion to <b class="text-uppercase"></b> is failed</div><span class="zlibicon-cross icon-hovered delete-btn" data-job_id=""></span></div>    </div>
+    <div id="shareToTooltipsContainer"></div>
+</div>
+
+
+<script type="text/javascript">
+    const availableTags = [];
+    const CurrentBook = new Book({"id":"15468587","title":"The Locked Door","termsHash":"cc631c21a8af7e0d7aabfd0ad3227d22"})
+    const CurrentBookRating = new BookRating(CurrentUser)
+    const $tagsInput = $('#inputTags')
+    const tags = $tagsInput.length ? new TagsInput($tagsInput, CurrentUser, CurrentBook.id, availableTags) : null
+    let dontShowAgain = getCookie("hide_tooltip_add_category")
+    
+    $(function () {
+
+        $('#btnCheckOtherFormats').click(function() {
+            if (CurrentBook.otherFormatsLoaded) {
+                return
+            }
+            // set an event listener after other formats loading
+            CurrentBook.checkOtherFormats().then(() => $(".btn-group li a.addDownloadedBook").on('click', () => {
+                if (dontShowAgain) return
+                addCatLink.tooltip('show')
+            }))
+            CurrentBook.otherFormatsLoaded = true
+        })
+
+        if ($('#btnCheckOtherFormats').data('check-formats') == 1) {
+            const spinner = new ZLibrarySpinner('btnCheckOtherFormats').length(3).radius(2).width(2).start()
+            CurrentBook.checkOtherFormats().then(() => {
+                spinner.stop()
+                // set an event listener after other formats loading
+                $(".btn-group li a.addDownloadedBook").on('click', () => {
+                    if (dontShowAgain) return
+                    addCatLink.tooltip('show')
+                })
+            })
+            CurrentBook.otherFormatsLoaded = true
+        }
+
+        $('a.lightbox').lightBox({
+            containerResizeSpeed: 1
+        });
+
+        // read more
+        var height = 300;
+        if ($('.termsCloud').height() > 0)
+        {
+            height = height - $('.termsCloud').height();
+        }
+
+        if (height < 225) {
+            height = 225; // min height
+        }
+
+        // prevent bad line-brake
+        height = Math.floor(height / parseFloat($('#bookDescriptionBox').css('line-height'))) * parseFloat($('#bookDescriptionBox').css('line-height')) + 10; //10 - padding-bottom of box
+
+        if ($('#bookDescriptionBox').height() > height)
+        {
+            $('#bookDescriptionBox').css('overflow', 'hidden');
+            $('#bookDescriptionBox').css('height', height);
+            $('<div style="text-align:center; cursor:pointer;font-size: 12px; height:25px;" class="moreBtn"><div style="display:inline-block;border-top: 1px dashed #333; width:75%; margin-top: 15px;"><span style="display:inline-block;position:relative;top:-13px;padding:0 30px; background: #F6F6F6;">click to read more</span></div></div>').insertAfter("#bookDescriptionBox");
+        }
+
+        $('.moreBtn, #bookDescriptionBox').click(function () {
+            $('#bookDescriptionBox').css('height', 'auto');
+            $('#bookDescriptionBox').css('overflow', 'auto');
+            $('.moreBtn').remove();
+        });
+
+        $('#btnSaveBook').click(function () {
+            const success = function (response) {
+                $('#btnSaveBook').addClass('hidden')
+                $('#btnUnsaveBook').removeClass('hidden')
+                                ZLibraryNotify({url: '/users/saved_books.php'})
+                    .info('This book was saved in your profile. Click here to see all favorites')
+            }
+
+            CurrentUser.saveReadLater(CurrentBook.id, success)
+        })
+
+        $('#btnUnsaveBook').click(function () {
+            const success = function (response) {
+                $('#btnSaveBook').removeClass('hidden')
+                $('#btnUnsaveBook').addClass('hidden')
+                if (typeof tags === 'object') {
+                    tags.clear()
+                }
+            }
+
+            CurrentUser.deleteReadLater(CurrentBook.id, success)
+        });
+
+        // book rating
+        CurrentBookRating.initTooltip($('.book-rating-detail .book-rating'))
+        CurrentBookRating.initChoiceContainerEvents();
+        CurrentBookRating.checkExistsScoreForBook(CurrentBook.id, CurrentBook.data.termsHash, function (hasScore) {
+            if (hasScore) {
+                $('.book-rating-detail .book-rating').addClass('book-appreciated')
+            }
+        })
+        $(document).on('click', '.book-rating-detail .book-rating.cursor-pointer', function () {
+            if (CurrentBookRating.tooltipEl) {
+                CurrentBookRating.tooltipEl.tooltip('hide')
+            }
+            CurrentBookRating.loadUserScores(CurrentBook.id, CurrentBook.data.termsHash);
+        });
+
+        $(document).on('click', '.book-choice-rating .stars-list', function(e) {
+            if (!$(e.target).hasClass('book-rating-star') || $(this).data('disabled')) {
+                return
+            }
+
+            const $that = $(this)
+            const $bookRatingEl = $('.book-rating-detail .book-rating')
+            const $ratingEl = $('.book-choice-rating')
+            const $ratingOverlayEl = $ratingEl.find('.overlay-post-score')
+            const $spinnerEl = $('#bookChoiceRatingtFloatingSpinner')
+
+            const data = {
+                'bookId': $that.data('id'),
+                'type': $that.data('type'),
+                'score': $that.find('.active-choice').length
+            }
+
+            if ($that.data('score') == data.score) {
+                return
+            }
+
+            $spinnerEl.css({'top': '-10px'})
+            $that.after($spinnerEl)
+
+            $ratingOverlayEl.show()
+            $that.data('disabled', 1)
+
+            $that.fadeTo(100, 0, function () {
+                CurrentBookRating.postScore(data, $spinnerEl, (result) => {
+                    $ratingOverlayEl.hide()
+                    $that.fadeTo(300, 1)
+                    $that.data('disabled', 0)
+
+                    if (!result.success) {
+                        return
+                    }
+
+                    $that.data('score', data.score)
+                    $that.find('.active, .active-none').removeClass('active active-none')
+                    $that.find('.active-choice').addClass('active')
+
+                    if ($that.data('id') != CurrentBook.id) {
+                        return
+                    }
+
+                    if (result.avg.interest > 0) {
+                        $bookRatingEl.addClass('book-appreciated')
+                        $('.book-rating-interest-score')
+                            .removeClass('none')
+                            .text(parseFloat(result.avg.interest).toFixed(1))
+                    }
+                    if (result.avg.quality > 0) {
+                        $bookRatingEl.addClass('book-appreciated')
+                        $('.book-rating-quality-score')
+                            .removeClass('none')
+                            .text(parseFloat(result.avg.quality).toFixed(1))
+                    }
+                })
+            })
+        })
+
+        // comments info
+        $('.book-rating-detail .book-comments-here').replaceWith($('.book-comments-info'));
+        $(document).on('click', '.book-comments-info', function() {
+            let jscommentsTextarea = $("#jscommentsTextarea");
+            $([document.documentElement, document.body]).animate({
+                scrollTop: jscommentsTextarea.offset().top
+            }, 500, function () { jscommentsTextarea.focus(); });
+        });
+    });
+
+    // Bookmarks
+    if ($('.bookmarks').length) {
+        userBookmarksInstance = new UserBookmarks(CurrentUser.id)
+        userBookmarksInstance.init({
+            page: 'book',
+            savedBookTags: []        })
+    }
+
+    //$('[data-toggle="tooltip"]').tooltip({'html': true});
+    $(window).on("load", function () {
+        $('[data-toggle="tooltip"]').tooltip({'html': true});
+        $('[data-autoopen="true"]').tooltip('show');
+        $('.btn-savebook-disabled').tooltip({
+            'html': true,
+            'trigger': 'manual',
+        });
+
+        $('.btn-savebook-disabled').mouseover(function () {
+            $(this).tooltip('show')
+        });
+
+        $('.btn-savebook-disabled').click(function () {
+            $(this).tooltip('hide')
+        });
+    });
+
+    function iOSversion()
+    {
+        if (/iP(hone|od|ad)/.test(navigator.userAgent)) {
+            const v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/)
+            return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]
+        }
+
+        return [];
+    }
+
+    /*
+    if (iOSversion()[0] >= 13 && navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)) {
+        // preload hint image
+        setTimeout(function() {
+            new Image().src = "/img/safary-download-hint.png";
+        }, 2000);
+
+        $('.dlButton').click(function() {
+            currentDomain = location.hostname.split('.').reverse()[1] + '.' + location.hostname.split('.').reverse()[0]
+
+            document.cookie = "ios_download_tooltip=1; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=." + currentDomain + "; path=/"
+            const iosNotify = $.notify('message', {
+                template: '<div data-notify="container" class="col-xs-12 col-sm-3 alert" style="background: #fff; border: 1px solid #999;">' +
+                    '<span data-notify="message">' +
+                        '<img src="/img/safary-download-hint.png" style="width: 100%; margin-bottom: 8px;">' +
+                        'Hint for Safari iOS 13 users: all your downloads are hidden under the arrow icon to the right of the browser address bar.<br>' +
+                        '<div class="text-right"><a href="javascript://" id="btnIosNotifyClose" style="color: #337ab7;">Hide</a></div>' +
+                    '</span>' +
+                '</div>',
+                offset: 0,
+                delay: 4000
+            })
+
+            $('#btnIosNotifyClose').click(function() {
+                document.cookie = 'ios_download_tooltip=10; expires=Tue, 19 Jan 2038 03:14:07 GMT; domain=.' + currentDomain + '; path=/'
+                iosNotify.close()
+            });
+        })
+    }
+    */
+
+    $(document).on('click', '.addDownloadedBook', function() {
+        CurrentUser.addDownloadedBook($(this).data('book_id'))
+    })
+
+    $(document).on('click', '.btnMarkAsReaded', function() {
+        const bookId = $(this).data('book_id');
+        new ZLibraryResponse(new Request('/papi/user/count-download/' + bookId))
+            .fetch()
+
+        CurrentUser.addDownloadedBook(bookId)
+    })
+
+    let superImage2 = new Image();
+    superImage2.onload = function ()
+    {
+        if(this.width !== 1){
+            return ; //cant load correct image from wiki
+        }
+
+        try {
+            if (window.localStorage !== undefined) {
+                let p = new ProxyChecker();
+                p.clearExcept(proxiesToCheck);
+                $.each(proxiesToCheck, function (index, proxy) {
+                    p.refresh(proxy);
+                });
+                p.syncCookies();
+
+                // check domains
+                let domains2check = ["ng1lib.org","b-ok.africa","b-ok.global","3lib.net","1lib.limited","1lib.education","bookshome.net","zlibrary.org","libsolutions.net","1lib.to"];
+                let domainsChecker = new ProxyChecker();
+                domainsChecker.scope = 'domains';
+                domainsChecker.pathToTest = '1pixel.php?v=3622';
+                domainsChecker.clearExcept(domains2check);
+                $.each(domains2check, function (index, proxy) {
+                    domainsChecker.refresh(proxy);
+                });
+                domainsChecker.syncCookies();
+            }
+        } catch (e) {
+        }
+    };
+    superImage2.src = "https://upload.wikimedia.org/wikipedia/commons/c/ca/1x1.png?x1" + new Date().getTime();
+</script>
+
+<div class="books-mosaic" style="display: none">
+    <h2 class="color1" style="margin-top:20px;overflow: hidden;">
+        <span style="float:left;">You may be interested in</span>
+        <a href="https://rec2me.com" style="float:right;font-size: 12px; color: #49afd0;line-height: 16pt;" target="_blank" title="recommender system and recommendation engine">
+            Powered by Rec2Me
+        </a>
+    </h2>
+
+    <div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+
+        <div id="booksMosaicBoxContainer"></div>
+
+    <script id="booksMosaicBoxTemplate" type="text/x-handlebars-template">
+        <div id="bMosaicBox">
+        {{#each data.books}}
+            <div class="brick pull-left" style="width:14%;">
+                <a class="book-loading"  href="{{this.url}}?dsource=recommend" title="{{this.title}}">
+                    <div class="z-book-none-cover medium recommended checkBookDownloaded" {{{this.coverData}}} data-book_id="{{this.id}}" data-isbn="{{this.isbn}}"></div>
+                    <div class="z-book-cover checkBookDownloaded" data-book_id="{{this.id}}" data-isbn="{{this.isbn}}">
+                        <img src="https://covers.zlibcdn2.com{{this.cover}}" class="bMosaicCover bgrid-item item" loading="lazy"/>
+                    </div>
+                </a>
+            </div>
+        {{/each}}
+        </div>
+    </script>
+
+    <style>
+        .bMosaicBox { min-height: 100vh }
+        #booksMosaicBoxContainer #bMosaicBox {
+            display: none;
+        }
+        #booksMosaicBoxContainer #bMosaicBox .brick a {
+            display: block;
+            text-decoration: none;
+        }
+        #booksMosaicBoxContainer #bMosaicBox .bMosaicCover {
+            width: 100%;
+        }
+
+        .book-loading { position: relative }
+
+        .book-loading > div:nth-child(2) {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #bMosaicBox .c-book-title {
+            max-height: 60px;
+        }
+
+        @keyframes toggleOpacity {
+            from { opacity: 1 }
+            to { opacity: 0 }
+        }
+    </style>
+
+    <script type="text/javascript" src="/resources/ext/freewall.js"></script>
+    <script>
+        $(document).ready(function() {
+            const booksMosaicBoxTemplate = Handlebars.compile(document.getElementById('booksMosaicBoxTemplate').innerHTML)
+            const data = new ZLibraryModelList({"books":[{"id":"3524754","isbn":"9781501154645,9781784756253,1501154648,1784756253,B01MQ1VL1Z","url":"\/book\/3524754\/219e5e","title":"Then She Was Gone","cover":"\/covers200\/books\/f7\/a0\/e4\/f7a0e40c3bf0d10622f23188435bbd0e.png","coverData":" data-id=\"3524754\" data-title=\"Then She Was Gone\" data-author=\"Lisa Jewell\""},{"id":"3987368","isbn":"9781476791456,1476791457","url":"\/book\/3987368\/955657","title":"Confess","cover":"\/covers200\/books\/e5\/db\/47\/e5db4756a85d3775292c9c8be94b970d.jpg","coverData":" data-id=\"3987368\" data-title=\"Confess\" data-author=\"Colleen Hoover\""},{"id":"4228727","isbn":"9781476753195,1476753199,B00HB62MC0","url":"\/book\/4228727\/5bfa05","title":"Ugly Love","cover":"\/covers200\/books\/eb\/a5\/01\/eba501594ab62859df0601e626eb7631.jpg","coverData":" data-id=\"4228727\" data-title=\"Ugly Love\" data-author=\"Colleen Hoover\""},{"id":"4265117","isbn":"9781474037945,1474037941","url":"\/book\/4265117\/41fc39","title":"Behind Closed Doors","cover":"\/covers200\/books\/22\/3c\/60\/223c606e1e03e12ddab4c1bc5a6b51a9.jpg","coverData":" data-id=\"4265117\" data-title=\"Behind Closed Doors\" data-author=\"B A Paris\""},{"id":"4507556","isbn":"B01M98J44U","url":"\/book\/4507556\/75cd52","title":"One of Us is Lying","cover":"\/covers200\/books\/f1\/98\/d5\/f198d5f87494883d0ffb37b024dfd1b9.jpg","coverData":" data-id=\"4507556\" data-title=\"One of Us is Lying\" data-author=\"Karen M. McManus\""},{"id":"4508313","isbn":"9781501161933,1501161938","url":"\/book\/4508313\/a859cf","title":"The Seven Husbands of Evelyn Hugo: A Novel","cover":"\/covers200\/books\/b9\/8d\/45\/b98d45aa05f3ddf848de8d30a0ac823e.jpg","coverData":" data-id=\"4508313\" data-title=\"The Seven Husbands of Evelyn Hugo: A Novel\" data-author=\"Taylor Jenkins Reid\""},{"id":"4649171","isbn":"9781471156267,1471156265,B017RMOW2U","url":"\/book\/4649171\/371aea","title":"It Ends with Us","cover":"\/covers200\/books\/b5\/0b\/2c\/b50b2c576b8ad44ae37874ccbfd61551.jpg","coverData":" data-id=\"4649171\" data-title=\"It Ends with Us\" data-author=\"Colleen Hoover\""},{"id":"4965135","isbn":"9781538724736,1538724731","url":"\/book\/4965135\/607368","title":"Verity","cover":"\/covers200\/books\/94\/d7\/9e\/94d79e727d010986bd00d5473efd6e41.jpg","coverData":" data-id=\"4965135\" data-title=\"Verity\" data-author=\"Colleen Hoover\""},{"id":"4998151","isbn":"9781250301697,9781250301710,1250301696,1250301718","url":"\/book\/4998151\/93753a","title":"The Silent Patient","cover":"\/covers200\/books\/68\/46\/54\/684654f69ac7f818da3c6a40d2552962.jpg","coverData":" data-id=\"4998151\" data-title=\"The Silent Patient\" data-author=\"Alex Michaelides\""},{"id":"5274848","isbn":"9781532902949,1532902948,B01F1G12K4","url":"\/book\/5274848\/df6fbd","title":"Brain Damage","cover":"\/covers200\/books\/03\/1f\/d2\/031fd20fb769694b45eac15917d0a1fe.jpg","coverData":" data-id=\"5274848\" data-title=\"Brain Damage\" data-author=\"Freida McFadden\""},{"id":"5368080","isbn":"9788635011363,9798635011362,8635011368,B07YBTCMPH,B086PMZR78","url":"\/book\/5368080\/0bb3d7","title":"The Perfect Son","cover":"\/covers200\/books\/ef\/e2\/c7\/efe2c7730989cd8dcbbac6beb237fa7d.jpg","coverData":" data-id=\"5368080\" data-title=\"The Perfect Son\" data-author=\"Freida McFadden \""},{"id":"5458994","isbn":"9788645358083,9798645358082,8645358085,B085BWPVFC,B088JC7LWY","url":"\/book\/5458994\/b9af42","title":"The Wife Upstairs","cover":"\/covers200\/books\/a0\/23\/1b\/a0231bf86a255d80f57ee7a896ab4666.jpg","coverData":" data-id=\"5458994\" data-title=\"The Wife Upstairs\" data-author=\"Freida McFadden \""},{"id":"5458995","isbn":"9798639013379,9788639013370,8639013373,B07FKT7W1S,B087CVY9ZQ","url":"\/book\/5458995\/1fc1fd","title":"The Surrogate Mother","cover":"\/covers200\/books\/54\/b5\/9e\/54b59ed030ad6923d0ee4cde1d742243.jpg","coverData":" data-id=\"5458995\" data-title=\"The Surrogate Mother\" data-author=\"Freida McFadden \""},{"id":"5458996","isbn":"B07MHGG3L3","url":"\/book\/5458996\/dfe47f","title":"The Ex","cover":"\/covers200\/books\/91\/dd\/83\/91dd8337bac9269fac545348bced94be.jpg","coverData":" data-id=\"5458996\" data-title=\"The Ex\" data-author=\"Freida McFadden \""},{"id":"11143325","isbn":"9798596462579,8596462570,B08NP5273Y,B08T5HDFPJ","url":"\/book\/11143325\/61a10d","title":"Want to Know a Secret?","cover":"\/covers200\/books\/84\/1f\/2c\/841f2c6641cf0c22c6602de2b63d102e.jpg","coverData":" data-id=\"11143325\" data-title=\"Want to Know a Secret?\" data-author=\"Freida McFadden \""},{"id":"11446853","isbn":"9798599706618,9798707219627,9781666501087,1666501085,8707219628,8599706616,B08RS5JH69,B091BH8F1F,B08TQCYDWH,B096TTR8J2","url":"\/book\/11446853\/555d5c","title":"The Arrangement","cover":"\/covers200\/books\/96\/e2\/91\/96e29163721a2a8de78751e40ea56eb5.jpg","coverData":" data-id=\"11446853\" data-title=\"The Arrangement\" data-author=\"Kiersten Modglin [Modglin, Kiersten]\""},{"id":"14197977","isbn":"9780778389446,0778389448,B08KPVFHP2","url":"\/book\/14197977\/82e571","title":"Local Woman Missing","cover":"\/covers200\/books\/0a\/62\/b5\/0a62b5bf433f15941c609f46b5c8269b.jpg","coverData":" data-id=\"14197977\" data-title=\"Local Woman Missing\" data-author=\"Kubica, Mary\""},{"id":"15468311","isbn":"9798669479893,9788669479894,8669479893,B089XYQ8SH,B08DPVSR7W","url":"\/book\/15468311\/81bd42","title":"One By One:","cover":"\/covers200\/books\/d4\/31\/4f\/d4314f81c2db0fe8098eb6ef26a06aa2.jpg","coverData":" data-id=\"15468311\" data-title=\"One By One:\" data-author=\"Freida McFadden [McFadden, Freida]\""},{"id":"16821492","isbn":"B08MX7KPMS","url":"\/book\/16821492\/4c742e","title":"The Night She Disappeared","cover":"\/covers200\/books\/f7\/e4\/06\/f7e4068eefd7bb73ffb06fa60d83512e.jpg","coverData":" data-id=\"16821492\" data-title=\"The Night She Disappeared\" data-author=\"Lisa Jewell\""},{"id":"16826624","isbn":"9781542029728,9781542020169,1542020166,1542029724,CJ73ZQEACAAJ,B08KH8YT2S,56238004","url":"\/book\/16826624\/151c2f","title":"The Good Lie","cover":"\/covers200\/books\/54\/54\/b0\/5454b09b56b27abf48be0af653514896.jpg","coverData":" data-id=\"16826624\" data-title=\"The Good Lie\" data-author=\"A. R. Torre\""},{"id":"17010206","isbn":"9780008371005,0008371008","url":"\/book\/17010206\/a12883","title":"Rock Paper Scissors","cover":"\/covers200\/books\/a1\/42\/34\/a1423442916f2f3def9517a3bf4dee48.jpg","coverData":" data-id=\"17010206\" data-title=\"Rock Paper Scissors\" data-author=\"Alice Feeney\""},{"id":"17112151","isbn":"9781800198265,1800198264","url":"\/book\/17112151\/48415f","title":"The Family Across the Street","cover":"\/covers200\/books\/93\/dd\/2a\/93dd2af2c385d68f58a803fc4b677fc7.jpg","coverData":" data-id=\"17112151\" data-title=\"The Family Across the Street\" data-author=\"Trope, Nicole\""},{"id":"17260911","isbn":"B09CN5LBGK","url":"\/book\/17260911\/814e80","title":"Do Not Disturb","cover":"\/covers200\/books\/24\/85\/b1\/2485b104df21fdf79f2be7610f838926.jpg","coverData":" data-id=\"17260911\" data-title=\"Do Not Disturb\" data-author=\"Freida McFadden\""},{"id":"18695286","isbn":"B09NGQ7BJ5","url":"\/book\/18695286\/75abce","title":"Do You Remember?: A gripping psychological thriller","cover":"\/covers200\/books\/46\/08\/ec\/4608ecee28618b5dee6a9866f64cfe6e.jpg","coverData":" data-id=\"18695286\" data-title=\"Do You Remember?: A gripping psychological thriller\" data-author=\"Freida McFadden\""},{"id":"18747722","isbn":"9781250803825,9781250859501,9781250803832,1250803829,1250859506,1250803837","url":"\/book\/18747722\/c31ac5","title":"A Flicker in the Dark","cover":"\/covers200\/books\/02\/7d\/5c\/027d5cfccda7fada4d4a3a08be84d047.jpg","coverData":" data-id=\"18747722\" data-title=\"A Flicker in the Dark\" data-author=\"Stacy Willingham\""},{"id":"18856558","isbn":"B09PNM8FFN","url":"\/book\/18856558\/95d428","title":"Things We Never Got Over","cover":"\/covers200\/books\/5f\/39\/58\/5f3958929e3e84db43a25a42714ae3d1.jpg","coverData":" data-id=\"18856558\" data-title=\"Things We Never Got Over\" data-author=\"Lucy Score\""},{"id":"19012389","isbn":"9780369715999,0369715993","url":"\/book\/19012389\/fbd843","title":"The Overnight Guest","cover":"\/covers200\/books\/74\/a6\/36\/74a636ba9f2d5ee90fb7ed4944cf0f7e.jpg","coverData":" data-id=\"19012389\" data-title=\"The Overnight Guest\" data-author=\"Heather Gudenkauf\""},{"id":"21404234","isbn":"B09TWSRMCB","url":"\/book\/21404234\/c2634b","title":"The Housemaid","cover":"\/covers200\/books\/3b\/6f\/9c\/3b6f9c0f1665c4ba6e3214d43c37e1de.jpg","coverData":" data-id=\"21404234\" data-title=\"The Housemaid\" data-author=\"Freida McFadden\""}]}).getAll()
+
+            // check if we have images
+            if (!$.isArray(data.books) || !data.books.length) {
+                return
+            }
+
+            $('#booksMosaicBoxContainer').closest('.books-mosaic').show()
+
+            // render template
+            $('#booksMosaicBoxContainer').html(booksMosaicBoxTemplate({data: data}))
+
+            // init mosaic
+            $('#bMosaicBox').css('display', 'block')
+            const wall = new Freewall('#bMosaicBox')
+            wall.reset({
+                selector: '.brick',
+                keepOrder: false,
+                animate: true,
+                cellW: $($('.brick')[0]).outerWidth(),
+                cellH: 'auto',
+                gutterX: 8,
+                gutterY: 8,
+                fixSize: false,
+                onResize: function () {
+                    wall.fitWidth()
+                },
+            })
+
+            let adjustTimer
+            const switchToImage = ($image, isInstant) => {
+                if ($image.hasClass('loaded')) {
+                    return
+                }
+
+                const imgHeight = $image.height() + 'px'
+                const $bookEnvelop = $image.closest('.book-loading')
+
+                $bookEnvelop.css('height', imgHeight)
+
+                if (isInstant) {
+                    $bookEnvelop.find('.z-book-none-cover').css('opacity', 0)
+                } else {
+                    $bookEnvelop.find('.z-book-none-cover')[0].style.animation = '.5s forwards toggleOpacity'
+                }
+                $bookEnvelop.find('.z-book-cover')[0].style.animation = '.5s reverse forwards toggleOpacity'
+
+                $image.addClass('loaded')
+
+                clearTimeout(adjustTimer)
+                adjustTimer = setTimeout(() => wall.fitWidth(), 400)
+            }
+
+            // Should be run async, otherwise this code will delay the execution of the js code with a large number of images
+            wall.container.find('img').on('load', function () {
+                switchToImage($(this), false)
+            })
+
+            $('.brick img').each(function() {
+                if (this.complete && this.naturalHeight !== 0) {
+                    switchToImage($(this), true)
+                }
+            })
+
+            // make books spines
+            $('#booksMosaicBoxContainer .z-book-cover').each(function () {
+                makeBookCover($(this))
+            })
+
+            $('#booksMosaicBoxContainer .z-book-none-cover').each(function () {
+                makeBookWithoutCover($(this))
+            })
+
+            setTimeout(() => wall.fitWidth(), 300)
+        })
+    </script>
+    </div>
+
+<h2 class="color1" style="margin-top:20px;">Most frequently terms</h2>
+<div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+
+<div class="termsCloud"><div class="termWrap "><a class="color1" href="/terms/?q=brady" target="_blank">brady</a><sup title="Frequency in the text">175</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nora" target="_blank">nora</a><sup title="Frequency in the text">142</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=harper" target="_blank">harper</a><sup title="Frequency in the text">131</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=philip" target="_blank">philip</a><sup title="Frequency in the text">117</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=cat" target="_blank">cat</a><sup title="Frequency in the text">108</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=basement" target="_blank">basement</a><sup title="Frequency in the text">99</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=okay" target="_blank">okay</a><sup title="Frequency in the text">80</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=marjorie" target="_blank">marjorie</a><sup title="Frequency in the text">68</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=davis" target="_blank">davis</a><sup title="Frequency in the text">67</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=phone" target="_blank">phone</a><sup title="Frequency in the text">65</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=detective" target="_blank">detective</a><sup title="Frequency in the text">57</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=somebody" target="_blank">somebody</a><sup title="Frequency in the text">54</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=patients" target="_blank">patients</a><sup title="Frequency in the text">46</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mrs" target="_blank">mrs</a><sup title="Frequency in the text">41</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nierling" target="_blank">nierling</a><sup title="Frequency in the text">39</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=barber" target="_blank">barber</a><sup title="Frequency in the text">39</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=girls" target="_blank">girls</a><sup title="Frequency in the text">38</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=surgery" target="_blank">surgery</a><sup title="Frequency in the text">36</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=stare" target="_blank">stare</a><sup title="Frequency in the text">34</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=callahan" target="_blank">callahan</a><sup title="Frequency in the text">33</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=amber" target="_blank">amber</a><sup title="Frequency in the text">33</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nobody" target="_blank">nobody</a><sup title="Frequency in the text">32</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=yeah" target="_blank">yeah</a><sup title="Frequency in the text">32</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=dad" target="_blank">dad</a><sup title="Frequency in the text">31</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=desk" target="_blank">desk</a><sup title="Frequency in the text">31</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=guy" target="_blank">guy</a><sup title="Frequency in the text">30</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=mom" target="_blank">mom</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=grab" target="_blank">grab</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=aaron+nierling" target="_blank">aaron nierling</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=scrubs" target="_blank">scrubs</a><sup title="Frequency in the text">29</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=anymore" target="_blank">anymore</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=surgeon" target="_blank">surgeon</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tonight" target="_blank">tonight</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lavender" target="_blank">lavender</a><sup title="Frequency in the text">27</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=prison" target="_blank">prison</a><sup title="Frequency in the text">26</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=sheila" target="_blank">sheila</a><sup title="Frequency in the text">25</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=coffee" target="_blank">coffee</a><sup title="Frequency in the text">24</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=henry+callahan" target="_blank">henry callahan</a><sup title="Frequency in the text">23</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=old+fashioned" target="_blank">old fashioned</a><sup title="Frequency in the text">21</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=nods" target="_blank">nods</a><sup title="Frequency in the text">21</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=eyebrows" target="_blank">eyebrows</a><sup title="Frequency in the text">21</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lock" target="_blank">lock</a><sup title="Frequency in the text">21</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=detective+barber" target="_blank">detective barber</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=kellogg" target="_blank">kellogg</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=scared" target="_blank">scared</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=shakes" target="_blank">shakes</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bedroom" target="_blank">bedroom</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=tiffany" target="_blank">tiffany</a><sup title="Frequency in the text">20</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=smiles" target="_blank">smiles</a><sup title="Frequency in the text">19</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=amber+swanson" target="_blank">amber swanson</a><sup title="Frequency in the text">19</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=soap" target="_blank">soap</a><sup title="Frequency in the text">19</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=scrub" target="_blank">scrub</a><sup title="Frequency in the text">18</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=asks" target="_blank">asks</a><sup title="Frequency in the text">18</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=purse" target="_blank">purse</a><sup title="Frequency in the text">17</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=lawyer" target="_blank">lawyer</a><sup title="Frequency in the text">17</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=grandmother" target="_blank">grandmother</a><sup title="Frequency in the text">17</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=bartender" target="_blank">bartender</a><sup title="Frequency in the text">17</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=patricia" target="_blank">patricia</a><sup title="Frequency in the text">17</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=parking+lot" target="_blank">parking lot</a><sup title="Frequency in the text">16</sup></div><div class="termWrap "><a class="color1" href="/terms/?q=niece" target="_blank">niece</a><sup title="Frequency in the text">15</sup></div></div><div class="related-booklists-lazy">
+    <div class="related-booklists-block">
+        <h2 class="color1" style="margin-top:20px;">Related Booklists</h2>
+        <div style="background: #49AFD0; height:2px; width: 100%; margin-bottom: 20px;">&nbsp;</div>
+        <div class="z-booklists-carousel" data-book_id="15468587" data-loader="loadBooklists" data-booklists_type="related"></div>
+    </div>
+</div>
+
+<script>
+    $(function() {
+        zBooklistCarousel('.z-booklists-carousel', {destroyContainer: true})
+    })
+</script>
+
+<div class="book-comments-info">0 comments</div>
+
+<div style="background: #49AFD0; height:2px; width: 100%; margin:40px 0 40px 0;">&nbsp;</div>
+
+
+<div id="jscommentsRootBox">
+    <div class="jscommentsFormBox">
+        <div style="width:65%; float:left;">
+            <form id="jscommentsForm" target="uploader" action="rpc.php" method="POST">
+                <input type="hidden" name="book_id" value="15468587">
+                <input type="hidden" name="action" value="addReview">
+                <input type="hidden" name="rx" value="0">
+                <input disabled="disabled" id="jscommentsNamefield" name="name" type="textfield" placeholder="Your Name" value="" onchange="if (this.value) {
+                            $(this).removeClass('error');
+                        }"/>
+                <textarea disabled="disabled" id="jscommentsTextarea" name="text" placeholder="Write a Review"  onchange="if (this.value) {
+                            $(this).removeClass('error');}"></textarea>
+                <br clear="all" />
+                <button disabled="disabled" id="jscommentsButton" onclick="onReviewSubmit(); return false;" style="position: relative;">
+                    Post a Review                </button>
+                <span class="auth-msg">To post a review, please <a href="#" onclick="showAuthModal('login'); return false;" class="plink">sign in</a> or <a href="#" onclick="showAuthModal('registration'); return false;" class="plink">sign up</a></span>            </form>
+        </div>
+        <div style="width:35%; float:left;" class="jscommentsFormHelp">
+            <div style="padding:10px 0 0 20px;  border-left:1px solid #ccc;">
+                You can write a book review and share your experiences. Other readers will always be interested in your opinion of the books you've read. Whether you've loved the book or not, if you give your honest and detailed thoughts then people will find new books that are right for them.            </div>
+        </div>
+    </div>
+    <div id="jscommentsCommentsBox"></div>
+</div>
+
+<style>
+    #jscommentsButton:disabled {
+        opacity: 0.5;
+    }
+    .auth-msg {
+        margin:0 0 0 30px;
+        color: #ED9111;
+    }
+    @media (max-width: 700px) {
+        .auth-msg {
+            display: block;
+            margin: 10px 0 0 0;
+        }
+    }
+    @media (max-width: 485px) {
+        .auth-msg {
+            width: 175px;
+        }
+    }
+</style>
+
+<script>
+    $('#jscommentsForm')[0].rx.value = 12;
+    const postCommentSpinner = new ZLibrarySpinner($('#jscommentsButton'));
+
+    function showAuthModal(action) {
+        new User().showAuthPopup(action)
+    }
+
+    function onReviewSubmit()
+    {
+        $('#jscommentsForm')[0].submit();
+        $('#jscommentsButton').data('originaltxt', $('#jscommentsButton')[0].innerHTML).attr('disabled', 'disabled');
+        $('#jscommentsNamefield').attr("disabled", "disabled");
+        $('#jscommentsTextarea').attr("disabled", "disabled");
+        postCommentSpinner.start();
+    }
+
+    function onReviewSubmitFailure()
+    {
+        $('#jscommentsButton').text($('#jscommentsButton').data('originaltxt')).removeAttr('disabled');
+        $('#jscommentsNamefield').removeAttr("disabled");
+        $('#jscommentsTextarea').removeAttr("disabled");
+        postCommentSpinner.stop();
+    }
+</script>
+<div style="display: none;">
+<div id="searchResultBox"><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="15468591" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">1</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr class="bookRow" data-book_id="15468591">
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="15468591" data-isbn="">
+                        <div style="" class="z-book-precover" >
+                            <a href="/book/15468591/3a003c"><img class="cover lazy" alt="" data-src="https://covers.zlibcdn2.com/covers100/books/80/15/55/80155512d1a0de4e449a9a38747cd848.jpg" data-srcset="https://covers.zlibcdn2.com/covers100/books/80/15/55/80155512d1a0de4e449a9a38747cd848.jpg 1x, https://covers.zlibcdn2.com/covers200/books/80/15/55/80155512d1a0de4e449a9a38747cd848.jpg 2x" /></a>
+                        </div>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/15468591/3a003c" style="text-decoration: underline;">Grapeshot Pantheon (Purgatory Wars Book 7)</a>
+                                    
+                                </h3>
+                                <div style="color: #333; font-size: 10pt;margin-bottom:10px;"><a href="/s/?q=Uruk+Press" title="Publisher">Uruk Press</a></div>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Dragon Cobolt [Cobolt">Dragon Cobolt [Cobolt</a>, <a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Dragon]">Dragon]</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div  class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+            <div class="property_value ">2018</div></div>
+                <div  class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+            <div class="property_value text-capitalize">english</div></div>
+                <div  class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+            <div class="property_value ">EPUB, 228 KB</div></div>
+                <div style="display: none;" class="bookProperty property_user_tags">
+                    <div class="property_label">Your tags:</div>
+            <div class="property_value "></div></div>
+            <div class="bookProperty property_rating">
+                <div class="book-rating" title="Book Rating / File Quality" data-book_id="15468591" data-terms_hash="ed0c20e25cfd6d89230078183955fc54">
+                    <span class="book-rating-interest-score none">
+                        0
+                    </span> /
+                    <span class="book-rating-quality-score none">
+                        0
+                    </span>
+                </div>
+            </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><div class="devider"></div><div class="resItemBox resItemBoxBooks exactMatch" data-book_id="15468586" itemscope itemtype="http://schema.org/Book">
+    <div>
+        <div class="counter">2</div>
+        <table style="width:100%; height:100%;" class="resItemTable">
+            <tr class="bookRow" data-book_id="15468586">
+                <td class="itemCover">
+                    <div class="checkBookDownloaded itemCoverWrapper" data-book_id="15468586" data-isbn="9780451487933">
+                        <div style="" class="z-book-precover" >
+                            <a href="/book/15468586/277f08"><img class="cover lazy" alt="" data-src="https://covers.zlibcdn2.com/covers100/books/57/98/b2/5798b26776b523e2f958daeae4198ad2.jpg" data-srcset="https://covers.zlibcdn2.com/covers100/books/57/98/b2/5798b26776b523e2f958daeae4198ad2.jpg 1x, https://covers.zlibcdn2.com/covers200/books/57/98/b2/5798b26776b523e2f958daeae4198ad2.jpg 2x" /></a>
+                        </div>
+                    </div>
+                </td>
+                <td style="vertical-align: top;">
+                    <table style="width:100%;height:100%;">
+                        <tr>
+                            <td>
+                                <h3 itemprop="name">
+                                    <a href="/book/15468586/277f08" style="text-decoration: underline;">My Cowboy Freedom</a>
+                                    
+                                </h3>
+                                <div style="color: #333; font-size: 10pt;margin-bottom:10px;"><a href="/s/?q=Penguin+Publishing+Group" title="Publisher">Penguin Publishing Group</a></div>
+                                <div class="authors"><a  itemprop="author" class="color1" title="Find all the author's books" href="/g/Z.A. Maxfield">Z.A. Maxfield</a></div>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td colspan="99" style="vertical-align: bottom;">
+                                <div class="tags-container"></div>
+                                
+                                
+                                <div class="bookDetailsBox">
+                <div  class="bookProperty property_year">
+                    <div class="property_label">Year:</div>
+            <div class="property_value ">2016</div></div>
+                <div  class="bookProperty property_language">
+                    <div class="property_label">Language:</div>
+            <div class="property_value text-capitalize">english</div></div>
+                <div  class="bookProperty property__file">
+                    <div class="property_label">File:</div>
+            <div class="property_value ">EPUB, 584 KB</div></div>
+                <div style="display: none;" class="bookProperty property_user_tags">
+                    <div class="property_label">Your tags:</div>
+            <div class="property_value "></div></div>
+            <div class="bookProperty property_rating">
+                <div class="book-rating" title="Book Rating / File Quality" data-book_id="15468586" data-terms_hash="8310b9011a1bd05ba7a7797825205745">
+                    <span class="book-rating-interest-score none">
+                        0
+                    </span> /
+                    <span class="book-rating-quality-score none">
+                        0
+                    </span>
+                </div>
+            </div></div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>                
+            </tr>
+        </table>
+    </div>
+</div><center></center></div> 
+
+<script>
+    $(document).on('click', '.btnEditBook', function() {
+        const bookId = $(this).parents('.bookRow').data('book_id')
+        const CurrentBook = new Book({id: bookId})
+        CurrentBook.suggestModal()
+    })
+
+    $(function () {
+        $('.lazy').Lazy({
+            effect: 'fadeIn',
+            effectTime: 1000,
+            beforeLoad: function(element) {
+                $(element).css({'border-width': '0px'});
+            },
+            afterLoad: function(element) {
+                $(element).css({'border-width': '1px'});
+                $(element).closest('.z-book-precover').hide().removeClass('z-book-precover').addClass('z-book-cover covered').fadeIn(1000)
+            }
+        });
+        
+        if ($('.bookProperty.property_rating').length) {
+            const bookRating = new BookRating(CurrentUser)
+            $('.bookProperty.property_rating .book-rating').each(function () {
+                const $that = $(this)
+                bookRating.checkExistsScoreForBook($that.data('book_id'), $that.data('terms_hash'), function (result) {
+                    if(result) {
+                        $that.addClass('book-appreciated')
+                    }
+                })
+            })
+        }
+
+        $('.property_18plus').tooltip({
+            title: 'This is adult content. If you want to <br> view such books - click &laquo;<a href="javascript://" class="btnHide18plus">Always display</a>&raquo;<br> if not - click &laquo;<a href="/profileEdit.php#other-settings" target="_blank">Hide</a>&raquo;',
+            html: true,
+            trigger: 'click',
+        })
+
+        $(document).on('click', '.btnHide18plus', function() {
+            new ZLibraryResponse('/eapi/user/update', {hide18plus: 0})
+                .successMessage('Saved')
+                .fetch()
+
+            $('.property_18plus').tooltip('hide')
+            $('.property_18plus').remove()
+        })
+    });
+</script>
+
+<pre>The Locked Door
+
+
+
+a novel by
+
+Freida McFadden
+
+
+
+
+
+The Locked Door
+
+
+
+© 2021 by Freida McFadden. All rights reserved.
+
+
+
+All rights reserved. No part of this book may be reproduced or transmitted in any form or by any means whatsoever without express written permission from the author
+
+
+
+This book is a work of fiction. The names, characters, incidents and places are the products of the authors’ imagination, and are not to be construed as real. None of the characters in the book is based on an actual person. Any resemblance to persons living or dead is entirely coincidental and unintentional.
+
+
+
+
+
+To Libby and Melanie (as always)
+
+
+
+
+
+Table of Contents
+
+
+
+Prologue
+
+Chapter 1
+
+Chapter 2
+
+Chapter 3
+
+Chapter 4
+
+Chapter 5
+
+Chapter 6
+
+Chapter 7
+
+Chapter 8
+
+Chapter 9
+
+Chapter 10
+
+Chapter 11
+
+Chapter 12
+
+Chapter 13
+
+Chapter 14
+
+Chapter 15
+
+Chapter 16
+
+Chapter 17
+
+Chapter 18
+
+Chapter 19
+
+Chapter 20
+
+Chapter 21
+
+Chapter 22
+
+Chapter 23
+
+Chapter 24
+
+Chapter 25
+
+Chapter 26
+
+Chapter 27
+
+Chapter 28
+
+Chapter 29
+
+Chapter 30
+
+Chapter 31
+
+Chapter 32
+
+Chapter 33
+
+Chapter 34
+
+Chapter 35
+
+Chapter 36
+
+Chapter 37
+
+Chapter 38
+
+Chapter 39
+
+Chapter 40
+
+Chapter 41
+
+Chapter 42
+
+Chapter 43
+
+Chapter 44
+
+Chapter 45
+
+Chapter 46
+
+Epilogue
+
+Acknowledgments
+
+
+
+
+
+Prologue
+
+
+
+
+Twenty-six years ago today, a man named Aaron Nierling was arrested in his home in Oregon.
+
+Most people knew Nierling as an upstanding citizen. He held a steady job and was a dedicated husband and father—a family man. He had never even received a parking ticket in his lifetime. He had certainly never been in trouble with the law.
+
+However, after an anonymous tip, the police discovered the remains of twenty-five-year-old Mandy Johansson behind the locked door of Aaron Nierling’s basement workshop.
+
+Preserved bones from seventeen other victims who had been reported missing over the last decade were also found in a trunk in the basement. Over the course of the police investigation, Nierling was implicated in at least ten other murders going back over twenty years, but no fo; rensic evidence was found to confirm this.
+
+Nierling plea-bargained to escape the death penalty and is currently serving eighteen consecutive life sentences in a maximum-security penitentiary. His wife was also charged with accessory to murder, but she killed herself in prison, prior to standing trial.
+
+News articles proclaimed Aaron Nierling to be a genius, who successfully evaded the police and the FBI for over two decades before his eventual capture. He is exceptionally charismatic and charming—at least, when he wants to be. He is a narcissist and a psychopath, who likely killed at least thirty women without a trace of remorse. He is insane. He is a monster.
+
+He is also my father.
+
+
+
+
+
+Chapter 1
+
+
+
+
+Someone is watching me.
+
+I can feel it. It doesn’t logically make sense that a person should be able to feel somebody’s gaze on the back of her head, but somehow I can right now. It’s a prickling sensation that starts in my scalp and crawls its way down to the base of my neck, then drips down my spine.
+
+I came to this bar alone. I like to be alone—I always have. Whenever there’s been a choice, I have always picked my own company. Even when I go to a restaurant, even when I’m surrounded by the low buzz of other people talking amongst themselves, I prefer to sit by myself.
+
+In front of me is my favorite drink—an Old Fashioned. On the nights I don’t feel like going straight home, I always come to Christopher’s. It’s dark and anonymous, with cigarette smoke ground into the bar countertops. It’s also usually fairly empty, and the bartenders aren’t too hard on the eyes. Sometimes I take a booth but tonight I sit at the bar, my eyes cast down at my drink, watching the single ice cube slowly disintegrate as that tingling in the back of my head intensifies.
+
+I can vaguely hear the television blaring in the background. Most of the time, there’s a sports game playing on the screen. But tonight, a game show is on. The host’s face fills the screen as he reads a question off the card in front of him.
+
+What friend of Charles de Gaulle was premier of France for much of the 1960s?
+
+I whirl around, trying to catch whoever has been staring at me in the act. No such luck. There are people behind me, but nobody is looking at me. At least, nobody’s looking at me at this moment.
+
+It’s probably something innocent. Maybe a man who is thinking about buying me a drink. Maybe somebody who recognizes me from work.
+
+It doesn’t mean it’s somebody who knows who I really am. It never is. I’m probably just paranoid tonight because it’s the twenty-sixth anniversary of the day my whole life changed.
+
+The day they found out what was in our basement.
+
+“You okay, Doc?”
+
+The bartender is leaning toward me, his muscular forearms balanced on the slightly sticky counter. He’s a new bartender—I’ve seen him only a handful of times. He’s slightly older than the last guy, maybe mid-thirties like me.
+
+I tug at the collar of my green scrubs. He started calling me “doc” because of the scrubs. It is, in fact, an accurate guess—I’m a general surgeon. Because I’m a woman, most people see the scrubs and think I’m a nurse, but he went with doctor.
+
+My father is probably proud if he knows about it. Whatever feelings or emotions he is capable of, pride is certainly one of them—that was clear from his trial. He always wanted to be a surgeon himself, but he didn’t have the grades. Maybe if he had become a surgeon, it would’ve kept him from doing the things he ended up doing.
+
+“I’m fine.” I run a finger along the rim of my glass. “Just fine.”
+
+He lifts an eyebrow. “How’s the drink? How’d I do?”
+
+“Good.”
+
+That’s an understatement. He made it perfectly. I watched him place the sugar cube at the bottom of the glass—he didn’t just dump a packet of sugar into the drink like some other bartenders I’ve seen. He put in exactly the right amount of bitters. And I didn’t have to tell him not to use soda water.
+
+“I have to tell you,” he says, “I didn’t expect you to order an Old Fashioned. You don’t seem like the type.”
+
+“Mmm.” I try to keep any interest out of my voice, so he’ll go away and leave me alone. I should never have sat at the bar. But to be fair, the bartenders here are rarely this chatty.
+
+He smiles disarmingly. “I thought you’d order a Cosmopolitan or lemonade spritzer or something like that.”
+
+I bite my cheek to keep from responding. I love drinking Old Fashioneds. That’s been my drink since I was twenty-one, and maybe even a little before, if I’m being honest. They’re dark and boozy, a little sweet and a little bitter. As I take a sip from my drink, my annoyance with the chatty bartender evaporates.
+
+“Anyway.” The bartender gives me one last long look. “You give me a yell if you want anything else.”
+
+I watch him walk away. For a split second, I allow myself to appreciate the lean muscles that stand out under his T-shirt. He’s attractive in a nonthreatening way, with light brown hair and mild brown eyes. The stubble on his face is not quite enough to be called a beard. He’s very nondescript—the sort of guy you couldn’t pick out of a lineup. Sort of like my father was.
+
+I start to tick off on my fingers the number of months since I’ve had a man over at my house. Then I start counting off the years. Actually, we may be getting into the decades territory. I’ve lost track, which is disturbing in itself.
+
+But I’m not interested in a rendezvous with the hot bartender or anyone else. A long time ago, I decided relationships wouldn’t be a part of my life anymore. There was a time when it made me sad, but now I’ve accepted that it’s better that way.
+
+I lift my drink again and swish the liquid around. I still have that crawling sensation in the back of my neck like somebody is watching me. But maybe it’s not real. Maybe it’s all in my head.
+
+Twenty-six years. I can’t believe it’s been that long.
+
+The game show host on the screen interrupts my thoughts, ripping my eyes away from my drink.
+
+What serial killer was commonly known as the Handyman?
+
+The bartender glances at the screen and says in an offhand way, “Aaron Nierling.”
+
+My father is a game show answer tonight. It could be because of the anniversary of his arrest, but it’s more likely a coincidence. No matter how many years go by, what he did will never be forgotten. I wonder if he’s watching. He used to like game shows. Is he allowed to watch TV in there? It’s not clear what they allow him to do in prison. I haven’t spoken to him since the police took him away.
+
+Even though he writes me a letter every week.
+
+I push thoughts of my father out of my head as I sip on my drink, allowing that nice warm feeling to wash over me. The bartender is wiping down the counter on the other side of the bar, his muscles flexing under his T-shirt. He pauses briefly to look over at me—and he winks.
+
+Hmm. Maybe my self-imposed abstinence isn’t such a great idea. Would it kill me to enjoy myself one night? To wear something besides scrubs? Or let my black hair hang loose instead of pinning it into a tight bun that makes my hair follicles scream with agony.
+
+“Dr. Davis? Is that you?”
+
+At the sound of the voice from behind me, the good warm feeling from the whiskey instantly vanishes. I was right. Somebody was looking at me. I wish I could have been wrong just this one time. All I wanted was a little quiet tonight.
+
+For a solid two seconds, I consider not turning around. Pretending I’m not really Dr. Nora Davis. That I’m some other lady in green scrubs who just happens to look like Dr. Davis.
+
+But at least he didn’t call me Nora Nierling. Nobody has called me that in a very, very long time. And I intend to keep it that way.
+
+The man standing behind me is in his fifties, and short and stocky. This man is most definitely a patient. I can’t recall his name, but I remember everything else about him. He came to the hospital with a fever and abdominal pain. He was diagnosed with cholecystitis—an infected gallbladder. We attempted to remove it laparoscopically with cameras, but halfway through, I had to convert it to an open surgery. That’s how I know if he were to lift his shirt over his protruding gut, there would be a diagonal scar running along his right upper abdomen. Well-healed by now, I’m sure.
+
+“Dr. Davis!” The man beams at me, showing off a row of yellow, slightly rotted teeth. “I was looking over here and I wasn’t sure but… It is you. Oh man, I wouldn’t have expected to find you in a place like this.”
+
+What’s a nice girl like you doing in a place like this? At least he hasn’t commented on my Old Fashioned.
+
+“Yes, well,” I murmur.
+
+I wish he would tell me his name. I feel at a distinct disadvantage. I have an excellent memory for many things—I could sketch out every blood vessel supplying the gut with my eyes closed—but people’s names are not one of them. I reach into the depths of my brain, but I’m coming up blank.
+
+“Hey, buddy!” the man calls out to the bartender. “Dr. Davis’s drink is on me! This lady here saved my life!”
+
+“That’s okay,” I murmur. But it’s too late. This nameless patient is already making himself comfortable in the barstool next to mine, even though I feel like the lack of makeup and the scrubs that are just one size away from being a potato sack don’t invite company.
+
+“She gave me this!” he announces, as he pulls up the hem of his shirt. His abdomen is covered in matted dark hair, but you can still see the faint scar from where I cut into him. Just like I remember. “Good job, right?”
+
+I smile thinly.
+
+“You’re a real hero, Dr. Davis,” he says. “I mean, I was so sick—”
+
+And then he starts proudly recounting the story for anyone in earshot. About how I saved his life. I would say that fact is debatable. Yes, I’m the one who removed his infected gallbladder. But one could argue that he might’ve done just as well with IV antibiotics and a drain placed by interventional radiology. I didn’t necessarily save his life.
+
+But this man is not to be dissuaded. And I did perform the surgery successfully, and he recovered completely and looks quite healthy, save for his dentition.
+
+“Quite impressive,” the bartender remarks as the mystery patient finishes the extended account of my exploits. An amused smile is playing on his lips. “You’re quite the hero, Doc.”
+
+“Yes, well.” I down the last dregs of my Old Fashioned. “It’s my job.”
+
+I rise unsteadily on my barstool. If someone were watching me, they might wonder if I was too drunk to drive. But the reason I’m shaky has nothing to do with alcohol.
+
+Twenty-six years today. Sometimes it feels like it was yesterday.
+
+“I’m going to head out.” I smile politely at my former patient. “Thank you for the drink.”
+
+“Oh.” The man’s face falls, like he hoped I would stay here another hour to talk about his infected gallbladder. “You’re really leaving?”
+
+“I’m afraid so.”
+
+“But…” He looks over at my empty glass and drums his stubby fingers on the counter. “I thought I could buy you another drink. Maybe some dinner. You know, as a thank you.”
+
+And now another little tidbit about this man comes back to me. When he thanked me at his follow-up visit, he rested his hand on my knee. Gave it a squeeze before I shifted away. You did a great job, Dr. Davis. Of course, I still can’t remember his damn name.
+
+“Unnecessary,” I say. “Your insurance company already paid me.”
+
+He scratches at his neck, at a little red patch that’s sore from shaving. He attempts to resurrect his smile. “Come on, Dr. Davis… Nora. A pretty woman like you shouldn’t be at a bar all alone.”
+
+The polite smile has left my lips. “I’m fine, thank you very much.”
+
+“Come on.” He winks at me. I notice now that one of his rotting incisors is dark brown, nearly black. “It’ll be fun. You deserve a nice evening.”
+
+“Yes, I do.” I sling my purse over my shoulder. “And that’s why I’m going home.”
+
+“I think you should reconsider.” He tries to reach for my arm, but I shrug him away. “I can show you a great time, Nora.”
+
+“I seriously doubt that.”
+
+All of the affection vanishes from his face. His eyes narrow at me. “Oh, I get it. You’re too good to spend five minutes having a conversation at a bar with one of your patients.”
+
+My fingers tighten around the strap of my purse. Well, this escalated quickly. I’ll have to tell Harper to make sure this man is fired from the practice. Oh wait, I can’t. I still don’t know his name.
+
+“Excuse me.” The bartender’s stern voice intercepts our conversation. “Doc, is this man giving you a hard time?”
+
+Henry Callahan. That’s his name—it comes back to me like a kick in the teeth. I let out a sigh of relief.
+
+Callahan looks over at the bartender, noting his height as well as the muscles in his forearms and biceps. He frowns. “No, I’m just leaving.”
+
+“Good.”
+
+Callahan manages to jostle my shoulder as he stumbles out the door. I wonder how many drinks he had before he approached me. Probably one too many—who knows if he’ll even remember this in the morning.
+
+Henry Callahan. I’ll tell Harper first thing tomorrow morning. He’s not welcome back at my practice.
+
+I glance back at my empty glass. Looks like ol’ Henry never bought me that drink after all. I reach into my purse to pay for it myself, but the bartender shakes his head. “On the house,” he says.
+
+I stick out my chin. “I’d like to pay.”
+
+“Well, I’d like to buy a drink for a woman who saved a guy’s life.”
+
+The bartender’s mild brown eyes stay trained on mine. The expression on his face is strangely familiar. Have I seen this man before?
+
+I stare back at him, searching his generically handsome features, trying to place him. He couldn’t have been a patient. He’s much younger than most of the people I see, and I remember everybody I put under the knife—like Henry Callahan—even if I can’t recall their names right away.
+
+Do we know each other? The question is on the tip of my tongue, but I don’t ask it. I’m probably wrong. It’s been a strange night, to say the least. And I want nothing more than to go home.
+
+“Okay,” I finally say. “Thank you for the drink.”
+
+He cocks his head to the side. “You going to be all right? You want me to walk you to your car?”
+
+“I’ll be fine,” I say.
+
+I glance out into the bar’s parking lot. My car is parked right under a street lamp, only a stone’s throw away. I watch Henry Callahan getting into his own car—a small blue Dodge with a large dent in the back fender. My shoulders relax as I watch him drive away.
+
+The creeping sensation in the back of my neck is gone, but it’s replaced with a slightly sick feeling. I do my best to push it away. I’m not worried about Henry Callahan. After the things I’ve seen in my life, there isn’t much that can shake me.
+
+But I still hang around the bar for another few minutes, to make sure he’s gone.
+
+
+
+
+
+Chapter 2
+
+
+
+
+I drive a dark green Toyota Camry. It’s a fine, sensible car in a sensible color without a nick or a dent on it. My partner at work, Dr. Philip Corey, purchased a red Tesla last year. When I nicknamed it his “midlife crisis car,” Philip just winked at me. He loves to take that Tesla on the freeway and let ‘er rip. When you get into a car with Philip, you’re taking your life into your hands.
+
+I’m not having a midlife crisis. I just needed a safe vehicle to get from point A to point B with as little fanfare as possible.
+
+The parking lot of Christopher’s is nearly silent as I slide into the driver’s seat of my Camry. I start the engine and classical music fills the car. Chopin’s Nocturne in C. I used to play the piano, and I learned this piece for a concert in high school. That feels like an eternity ago. I haven’t touched piano keys in at least a decade.
+
+I get back on the road. It’s quiet like it always is on weeknights. I ease my foot onto the gas, taking the back roads like I usually do to get home.
+
+After about two minutes of driving, I notice the pair of headlights behind me.
+
+It doesn’t necessarily mean anything. So there’s a car driving behind me. So what? But at the same time, I’m usually the only one driving on these back roads at this hour. Usually, it’s just me and the stars. And maybe the moon, depending on the time of the month.
+
+Also, the car is following me very closely. I’m going at least ten miles above the speed limit for this small road, and the headlights are probably less than two car lengths behind me. If I stopped short, they would almost certainly rear-end me.
+
+I suspect this car might be intentionally following me. But there’s only one way to know for sure.
+
+I approach a fork in the road. I signal left. As I come to the fork, I start to veer left. But at the last second, I swerve right.
+
+I have my eyes pinned on the rearview mirror the entire time. I watch the headlights behind me as they start to move left, then start to veer to the left of the fork as I sail to the right. And then, the car skids to a halt. The car backs up, then turns right at the fork.
+
+I inhale sharply, my hands squeezing the steering wheel. The other car is definitely following me. That bastard is following me.
+
+As I contemplate my next move, a thought flits through my head. One that I have not infrequently when I’m in difficult situations:
+
+What would my father do?
+
+I always have that thought, as much as I try not to. I don’t want to know what my father would do. And I certainly don’t want to do the same thing he would do. After all, he’s the one spending eighteen life sentences in prison right now. Not exactly something I want to strive for.
+
+I have my phone in my pocket, hooked up to my Bluetooth. I could call the police. I could tell them my location and that there’s a car following me. But I don’t do that either.
+
+At the next corner, I usually turn right to go home. But instead, I turn left. The car behind me turns with me. The headlights flood my car as the other vehicle creeps closer to mine. They’re not even trying to hide the fact that they’re following me. Two car-lengths have now become one car-length. They’re riding my rear bumper.
+
+Then I see my destination up ahead. The local police department.
+
+I pull into the parking lot at the police department. I keep my eyes on the rearview mirror, waiting to see if the driver will have the gall to follow me into the police station parking lot. But instead, the headlights disappear from my rearview mirror, just as I suspected they would. As I pull into a parking spot, I see the car that had been following me drive past.
+
+It’s a blue Dodge with a dent in the rear fender.
+
+I sit in the parking lot of the police department for the next ten minutes, watching the road, making sure the car that had been following me is long gone. This is not my favorite place to be. I remember the first time I ever visited the police department. I was ten years old. My father had just been arrested. The police had so many questions for me.
+
+Nora, how long did your father keep a workshop in the basement?
+
+Nora, did your mother ever go down there?
+
+Nora, are there any other secret hiding places in your house?
+
+Another woman might have marched into the police station. Asked for an escort home. Reported Henry Callahan for following me. But it won’t do me any good. And the thought of entering a police station makes me physically ill. After what I went through all those years ago, I never want to go into a police station ever again.
+
+After all, a simple background check will reveal exactly who I am. I don’t need that.
+
+After ten minutes, I feel satisfied that Callahan is finally gone. Sure enough, when I get back on the road, it’s as quiet and empty as it usually is. It takes me another fifteen minutes to arrive at my cozy two-story house in Mountain View. The realtor said the house was perfect for a small family, but it’s just me. There was a time when I thought it might not always just be me, but in retrospect, that was misguided.
+
+There are two bedrooms upstairs, and I use the second bedroom for my home office slash guest room. The washer and dryer are in the basement. When Philip came to visit soon after I bought the place, he wrinkled his nose and remarked that I could afford better. Yes, I could, but I’m happy here. What on earth would I do rattling around a five-bedroom house all by myself? It’s not like I’ll ever have children to fill up those rooms.
+
+I come in through the garage entrance. The door echoes as it slams shut, and after the sound dies off, the house becomes deathly silent. I stand there for a moment, clutching my keys in my right hand.
+
+“Honey, I’m home!” I call out.
+
+It’s funny because, you know, I live alone.
+
+I stand there for a moment, listening to the echo of my words throughout the room. I worry sometimes about living alone. If somebody came into my house and were waiting for me here, who would know?
+
+But it’s a safe neighborhood. I don’t usually worry about stuff like that.
+
+I’m starving. If I hadn’t had to deal with Henry Callahan trying to scare me, I would’ve swung by In-N-Out Burger on the way home—part of my campaign to drop dead of a heart attack before I’m fifty. But I missed my chance, so I go to the kitchen to see what’s in the freezer. I need some food to soak up the whiskey. And then maybe another whiskey to soak up the food.
+
+No, I really shouldn’t. It’s getting late and I have to be up at the crack of dawn to operate in the morning. I don’t need much sleep as a rule, but my eyelids are starting to feel heavy.
+
+As I open the cupboard in the kitchen, I hear a thump. Then a second thump.
+
+Somebody’s trying to get in the back door.
+
+Thump.
+
+I was waiting at the police station for at least ten minutes. Henry Callahan was gone. He didn’t follow me home—I’m sure of it. I was watching in my rearview mirror the whole time and I didn’t see any cars behind me. I would have noticed, even if their lights were off. I’m very observant.
+
+I look out the window, but I see only blackness. There’s no one there.
+
+Like I said, I live in a very safe neighborhood. All my neighbors are up-and-coming professionals, most of them with young families. Although I don’t know for certain, because I haven’t taken the opportunity to meet any of them. I can’t name one person living within a one-mile radius of me, although I suppose I would recognize a few of them on sight.
+
+I imagine what they would say if something ever happened to me. She seemed nice. Quiet. Always kept to herself. That’s what they always say.
+
+Thump.
+
+I return to the cupboard over the sink. I yank it open and retrieve the object I’m looking for before returning to the back door. I take one last look out the window to confirm nobody is there. Then I twist the lock to the back door and throw open the door.
+
+Instantly, the meowing starts up. There’s a black cat at my feet, who nuzzles at my pants leg with her little furry head. Then she looks up at me hopefully.
+
+“Yeah, yeah, yeah,” I say.
+
+I crack open the can of cat food I got from my cupboard and empty it into the little bowl I put out behind my back door. This cat is not my cat. It is a stray cat. I should probably call an animal shelter or something, but instead, I bought a crate of cat food. And now, apparently, I’m feeding the cat.
+
+I watch the cat lap up sixty cents worth of mashed-up chicken. She’s so ridiculously grateful whenever I feed her. Maybe even more grateful than Callahan was for having saved his life.
+
+My father would not have done this. He wouldn’t have fed a stray cat. He never saved anyone’s life.
+
+I watch the cat eat for another few seconds, then I shut the back door. And I lock it.
+
+Ten minutes later, I settle down at my kitchen table with a TV dinner and my laptop. I log into our practice’s electronic medical records system. I sift through some labs, but then I find myself searching for the medical record of Henry Callahan.
+
+It’s just as I remember. Cholecystitis. Required removal of the gallbladder. Laparoscopic surgery converted to open cholecystectomy. No post-op complications, routine recovery.
+
+Then I click on the tab for demographics. It lists Callahan’s medical insurance. His primary contact is his brother, which means he’s not married. He probably lives alone. And right below all the phone numbers is his home address.
+
+He lives in San Jose in a sketchy sort of neighborhood. Looks to be a house. Not far from here at all.
+
+I could be there in twenty minutes.
+
+Hmm.
+
+I shake my head and close the laptop with a snap. I grab my water and take a long drink. I wish I had another Old Fashioned, but the water will have to do.
+
+The pile of mail I retrieved from the front door is now stacked neatly in the middle of the table. I push my laptop to the side and start sorting through the letters. The first two are bills—I find it baffling that they still come, even though I pay all my bills online. The next one is soliciting a political donation. Yeah right. Then a catalog from a bakery, offering a variety of baked goods.
+
+And the last letter is from my father.
+
+I suck in a breath as I stare at the smooth black lettering on the back of the envelope. He always had very nice handwriting. Tight and compact, every letter the exact same height like he measured it with a ruler, the pen marks digging into the paper so that an indentation would always be left behind on the sheet below. I wonder if the postman noticed the name on the return address. If he did, he probably thought it was a joke. At least the letter is made out to Nora Davis. I haven’t been Nora Nierling in nearly twenty-six years.
+
+He’s been writing me these letters every week since the day of his arrest. I didn’t know about them for a long time. My grandmother used to throw them out. But then after I left for college, the letters came directly to me.
+
+What does he have to say to me? What could he possibly have to say?
+
+I wonder if he thinks about me. Worries about me. My mother used to worry about me when I was a kid, but she’s long gone. Nobody thinks about me or worries about me anymore. Not really. Philip might worry a little bit, because if something happened to me, who would cover his patients when he went on vacation? But he doesn’t worry in any sort of real way.
+
+I stare at that letter for a very long time. Like I do every week.
+
+And like I do every week, I rip it in half, and rip it in half again, and toss the pieces in the garbage can.
+
+Happy anniversary, Dad.
+
+
+
+
+
+Chapter 3
+
+
+
+
+26 Years Earlier
+
+
+
+The cake smells really good coming out of the oven. It’s vanilla—my favorite. And my mom made it from scratch, using flour, sugar, baking powder, vanilla, and eggs. She showed me how to mix the wet ingredients and the dry ingredients separately, and then we combined them. I helped her, because she asked me to, but I don’t like baking with my mom. I would’ve been okay using the vanilla cake from the box. Or just something she bought from the grocery store bakery aisle.
+
+Mom lowers the cake tin down onto the kitchen counter and pulls off her pink oven mitts. There are two cake tins, because she’s going to make a layer cake. That’s what I asked for. A vanilla cake with layers and cream cheese frosting.
+
+“Can we put the frosting on now?” I ask.
+
+Mom places one hand on each hip. She is such a mom. Like if you were reading a book about a mom, she’d probably be like my mom. Every night, she cooks dinner for us, makes sure I do all my homework, and cleans the house herself, top to bottom. (I’m technically responsible for my own bedroom, but if I get lazy and don’t do it, she mostly just does it for me.) When our neighbors are sick, she goes to check on them and brings a tub of chicken noodle soup or maybe a casserole.
+
+“Nora,” she says. “You know we have to let the cake cool before we put the frosting on it. Otherwise, it will just melt.”
+
+“Well,” I say thoughtfully, “then we can put on a second layer.”
+
+Mom smiles at that. She smiles a lot. When she smiles, she has dimples and it makes her double chin look bigger. When she and my dad got married, she was skinny—almost bony—but she’s not now. I like her better this way. Who wants to hug a bunch of bones? But my dad keeps telling her she should try to lose some weight. He says it a lot.
+
+“You have to be patient,” she says.
+
+Usually, I’m pretty patient. Even when the other kids are fooling around in class, I always sit quietly and do what the teacher says. But today is my birthday, and the cake smells really good. So I rip the lid off the plastic tub of cream cheese frosting and rake one finger through the creamy white goodness. Mom gives me a look, but she doesn’t stop me. After all, we’re the only ones who are going to be eating the frosting.
+
+Mmm. Cream cheese frosting.
+
+“Are you sure you don’t want to invite any of your friends over tonight?” Mom asks me. “It’s not too late.”
+
+“No, that’s okay.”
+
+“But it’s your birthday, honey.”
+
+She doesn’t have to remind me that it’s my birthday. I know it’s my birthday. Today, I am eleven years old. Next year I’ll be in middle school. I can’t wait.
+
+Mom’s eyebrows knit together. “You have friends, don’t you, Nora?”
+
+“Yes.”
+
+It’s not a lie. I do have friends. There are girls I play with at recess every day. But I’ve never had a very close friend. Some of the girls call each other on the phone every night and talk until midnight. I don’t have any friends like that. And I don’t have any friends I want to invite to my eleventh birthday party.
+
+What’s so wrong with that?
+
+I take another scoop of frosting with my finger, and my mom gives me a look. I knew it was only a matter of time before she was going to tell me to quit it. “Go upstairs and change,” she tells me. “By the time you get back down, the cakes will be cool.”
+
+I groan. “Why do I have to change? It’s just us.”
+
+“It’s your birthday. It’s a special occasion. Don’t you want to look nice?”
+
+I lift a shoulder. “When is Dad getting home?”
+
+“He’ll be home in an hour. He’s picking up a present for you on the way back.”
+
+I keep my fingers and toes crossed it’s another hamster, but it probably won’t be, because Mom says we have bad luck with hamsters. But I know it’s going to be something good. My dad gives the best presents.
+
+Mom folds her arms across her chest. “Go, Nora. We’re not frosting the cake until you’re ready.”
+
+Fine. I drop the tub of frosting on the kitchen counter, so I can go upstairs and change. On the way to the stairwell, I pass the door to the basement. Some of my friends at school have basements that are finished, where they play video games or have parties, but our basement is my dad’s workshop.
+
+A few years ago, he got really into woodworking, and he decided to turn the basement into his workshop. So now he goes down there for hours and makes chairs and tables and stuff like that. But he’s not all that good at it. Like last month he came out of the basement with this chair he made, and it was pretty bad. Like, the legs were all different lengths. It wasn’t the kind of chair you want to sit in—it looked like it would just collapse. But Mom said we should be supportive, so I said I liked it.
+
+I thought it would be fun to help Dad in the workshop. Not that I like woodworking that much, but I like hanging out with my dad. But he said that doing woodworking is his alone time, and it helps him relax. I don’t know why he can’t relax with me around, but whatever.
+
+There’s this smell around the basement door. I wasn’t sure what it was at first, but then for Christmas, Dad got me a bottle of this lavender body mist, and I realized that’s what the smell is. Lavender. I get a huge whiff of it every time I pass the basement door, like the whole bottom of our house is drenched in it.
+
+I put my hand on the doorknob to the basement. I’ve never seen his woodshop. He always keeps the door locked because he says it’s dangerous down there. Like there are a lot of drills and saws, and I might get hurt. I told him I would be careful, but he was insistent.
+
+I try to turn the doorknob. It doesn’t turn. Locked. As always.
+
+“Aaron!” My mom’s voice comes from the kitchen. She’s really loud. “You’re home early!”
+
+My heart jumps in my chest and I forget all about changing out of my clothes—which are fine anyway—and I run back to the kitchen. My dad is standing in the middle of the room, wearing his big puffy coat, his hair all messed up from his hat. My dad is the most handsome of all of my friends’ dads. He’s tall and has thick dark brown hair that’s almost black and nice white teeth and all the teachers get giggly around him.
+
+He works as a phlebotomist. I know all about this because I once had to write a paper on what our parents do. My mom is a housewife, so I wrote the paper about my dad. Basically, he has to draw blood from people so that they can run tests on the blood. It’s a very important job. It’s also really hard to spell. PHLEBOTOMIST. You would think there is an F at the beginning, but it’s actually a P-H.
+
+Anyway, he’s really good at it. He said sometimes he has to sweet talk people into letting them draw their blood, but he always gets them to go along with it. But between work and all the time he spends in the stupid basement, I almost never see him.
+
+“Happy birthday, kiddo!” Dad says.
+
+He beams at me but he doesn’t hold out his arms to hug me. Dad isn’t big on hugs. And that’s fine, because I don’t like to hug either. Mom always wants to hug me, and I kind of hate it.
+
+“What did you get me?” I ask eagerly.
+
+“Nora!” Mom scolds me.
+
+But Dad just laughs. “It’s her birthday. She’s entitled.” And then he reaches behind him to pull out a cage. There’s a little white mouse inside the cage. “Ta-da!”
+
+I let out a squeal. “A mouse!”
+
+Mom’s face gets very white. “Aaron, I thought we decided…”
+
+“It’s fine.” He plops the cage down on the kitchen table. “She’ll be more careful this time. Won’t you, Nora?”
+
+I bend down, smiling at the mouse scurrying around the little cage. The mouse knocks into the bars of the cage, but there’s nowhere else to go.
+
+Happy birthday to me.
+
+
+
+
+
+Chapter 4
+
+
+
+
+Present Day
+
+
+
+My first patient scheduled in the afternoon is at one-thirty. It’s a tight squeeze to get back to our practice from the hospital, where I spent the entire morning operating. My lunch is a burrito from the food cart that’s always parked outside the emergency room entrance. I have to eat the burrito while driving.
+
+But there’s nothing unusual about that. I eat the majority of my meals while driving. I don’t think I could navigate the road from the hospital to my office without a burrito in one hand and the steering wheel in the other. I chug from my water bottle at the red lights.
+
+I park my car in the lot outside our office building at one-thirty-five. I skip the elevator and race up the two flights to the practice I share with Philip. The gold sign on the door says Corey and Davis Surgical Associates. He gets to be first. His main arguments were that he’s been in practice longer, and also, he’s first alphabetically. I let him have that one.
+
+When I get up to the third floor, I’m gasping for air. I’ve allowed myself to get dangerously out of shape over the last decade. I have to remember I’m not in my twenties anymore. If I eat too many more burritos while driving, I might end up with an early coronary.
+
+Then again, heart disease is one thing that doesn’t run in my family.
+
+I’ve nearly managed to catch my breath by the time I burst into the office. The waiting room is empty, and Harper is at her desk, tapping on the keys of her computer. She looks up when I come in and offers me a friendly smile.
+
+“Good afternoon, Dr. Davis!” she chirps. I have told her no less than a thousand times to call me Nora, but she still calls me Dr. Davis. I suppose it’s a sign of respect. “Your first patient is already waiting in the examining room.”
+
+“Oh.” I gulp in some air. I need to get back in shape. “Who is it?”
+
+“Arnold Kellogg.”
+
+I wince. This is Mr. Kellogg’s first post-op appointment after his hernia repair, and I know he’s going to be testy about being kept waiting. I look down at my watch. Seven minutes late. Oh well.
+
+“I told him you had an emergency at the hospital,” Harper says. “So he’ll understand.”
+
+I let out a breath. “Thanks, Harper. You’re the best.”
+
+Her cheeks get a little pink the way they always do when I compliment her. Harper is in her early twenties, and I was so mad when Philip hired her. We had a list of nearly fifty applicants for the job, and of course, he picks the youngest and prettiest of all of them. It was my own damn fault for letting him be in charge of it—I don’t know what I was thinking. When I saw Harper walk in with her long legs and shiny dark hair and big blue eyes, I wanted to smack him upside the head.
+
+But for the most part, Philip has behaved himself. It could have something to do with the twenty-minute lecture I gave him on sexual harassment, although I had to dole it out in two-minute intervals between patients.
+
+And then it turned out Harper is fabulous. I liked our old secretary, Bridget, who quit after she had a baby, but Harper is even better than she was. She’s very organized, incredibly personable, and smart as a whip. She recently graduated from college with an English degree and hasn’t quite been able to figure out what to do with it, so she and I have had some late nights at the office and at the Mexican restaurant a five-minute drive away, discussing her future over margaritas.
+
+“Late for clinic again, Dr. Davis?”
+
+I snap up my head, and Philip is standing in front of me, his arms folded across his chest. He’s got an amused grin plastered over his handsome features. Philip is the sort of doctor that all the female patients fall in love with. I would never have anything to do with him, except he’s one hell of a surgeon. He knew me because he was my senior resident when I was a medical student, and after I graduated, he approached me to join his solo practice. I was being courted by a large surgical practice, but Philip made me a really good offer and I liked the autonomy. So here I am.
+
+“My last surgery ran long,” I say.
+
+Philip clucks his tongue. “Nora, when are you going to learn to work faster like me?”
+
+I roll my eyes. “Fast or careless?”
+
+He grins at me. “Say what you want, but I never keep patients waiting.” He winks at Harper. “I never keep ladies waiting either.”
+
+I shoot Philip a look while Harper busies herself at her desk. To her credit, she has never flirted back with him. She has a serious boyfriend, and the last time we talked, she told me he was hinting at getting her a ring. So she’s very smart to stay far away from Philip.
+
+I’ve already kept Arnold Kellogg waiting for too long, so I excuse myself and go into the examining room. Sheila, our medical assistant, has already taken Mr. Kellogg’s vital signs and she’s hanging his chart on the door when I approach the room. All the information goes in the computer, but I like to have it on paper in front of me. There’s nothing I hate more than going to see the doctor and all they do is stare at a screen while I’m talking to them.
+
+“You’ve got your work cut out for you, Nora,” Sheila tells me. She is in her sixties with mocha skin, graying hair, and arms like tree trunks. She’s amazing—I wish I had five of her. “He’s not happy about being kept waiting.”
+
+“Thanks, Sheila.” I grab the chart off the door and look at Kellogg’s vitals. All fine. “I’ll have to turn up the charm.”
+
+Sheila snorts. “I know you will.”
+
+I take a deep breath, my hand on the doorknob. I already feel the phony smile spreading across my face, but it doesn’t look phony. It looks real. It’s the same smile Aaron Nierling used to lure girls into his car. My father had a lot of charisma, and he could really turn up the charm when he wanted to. And so can I.
+
+When I open the door, seventy-three-year-old Mr. Kellogg and his wife are sitting together in the examining room. He is frowning. Not just his face. His whole body is frowning. His sparse gray hair is frowning, his saggy gut is frowning, and his hunched shoulders are frowning. I didn’t think such a thing was possible until I saw it with my very own eyes.
+
+“Mr. Kellogg!” I exclaim, like he’s my long-lost best friend. “You look fantastic. How are you doing?”
+
+He looks up at my smiling face. He’s struggling now. He wants to be angry with me for making him wait, but I’m making it challenging for him.
+
+Before he can say a word, I grab the stool I keep in the room and sit down. I always sit down with my patients. I don’t think Philip has sat down once in the last fifteen years (including possibly for meals), but I make sure to always do it in examining rooms. And when I sit with Mr. Kellogg, I lean forward as if whatever he has to say to me is intensely important.
+
+“Are you doing okay?” I prompt him.
+
+Finally, I see him cave. “I’m okay, Doctor.”
+
+I smile wider at him, and he reluctantly smiles back. I suppose I have to thank my father for this gift. The ability to turn up the charm. And I can turn it off just as easily.
+
+“We heard you had an emergency,” Mrs. Kellogg speaks up. “I hope everything is okay?”
+
+I tilt my head to address my patient’s wife. I consider myself very observant when it comes to the human body, and it’s very hard not to notice the hint of purple fading into yellow below Mrs. Kellogg’s left eye. I’m so taken aback by it, the smile slips from my face and I can’t manage to answer her question.
+
+“She can’t tell you that!” Mr. Kellogg snaps at her. “It’s a privacy violation, Diane. What’s wrong with you?”
+
+“Oh.” Mrs. Kellogg drops her eyes. “I’m sorry.”
+
+“Don’t say sorry to me. Say sorry to Dr. Davis.”
+
+She doesn’t lift her eyes. “Sorry, Dr. Davis.”
+
+I keep staring at that bruise under her left eye. I remember from his chart that Mr. Kellogg is right-handed. So a right hook would end up hitting her in the left eye. I do recall she was at his pre-op appointment, and I remember him snapping at her. I didn’t like it, but I figured it was none of my business.
+
+But now she’s got a black eye.
+
+Mr. Kellogg is not a large man. But his wife is a frail little thing, and even in a weakened state from his surgery, I believe he could’ve done this to her. Scratch that. I believe it’s likely he did this to her.
+
+I wish I knew before the surgery. I wish I knew when his abdomen was sliced open and he was under anesthesia. One slip of the knife and I could have nicked his bowel. If I had done that, he wouldn’t be smacking around his wife. He would be experiencing a world of hurt right now.
+
+But no. I would never do that. Never.
+
+I’m not like my father. I feed stray cats. I save lives.
+
+I take a deep breath and ask Mr. Kellogg to get up on the examining table. He pulls up his gown to reveal the row of vertical staples I embedded in his belly. The incision looks great. I get out a staple removal kit and start pulling them out one by one. It takes less than two minutes, but then the last staple snags.
+
+“Easy there, Doc,” Mr. Kellogg says.
+
+I look over at Mrs. Kellogg, who is wringing her hands together. I yank on the staple and it twists free. A drop of blood oozes from his skin.
+
+“Jesus, Dr. Davis!” he yelps. “That hurt worse than the surgery!”
+
+“Sorry,” I say. Not sorry.
+
+While Mr. Kellogg grumbles under his breath about my incompetence, I dig around in a drawer to find a bandage. I open the package to pull out the gauze, but on the discarded wrapper, I scribble a sentence with the pen in my scrub top pocket:
+
+Is he hurting you?
+
+I pass by Mrs. Kellogg as I’m walking back to the examining table, and I hand her the scrap of paper as surreptitiously as I can. She takes it from me and looks down at my question. Then she looks up at me with her watery brown eyes and hesitates.
+
+Then she shakes her head no.
+
+Do I believe her? I don’t know if I do. At the very least, I’ve seen him act emotionally abusive to her in the span of this short appointment, so God only knows what happens in their home. But she’s denying it, and the woman isn’t even my patient. It makes my blood boil, but there’s nothing more I can do.
+
+
+
+
+
+Chapter 5
+
+
+
+
+My last patient leaves at nearly six, but I’m not even close to being done. I’ve still got a ton of paperwork to catch up on and phone calls to return. And sometimes I go back to the hospital to do a quick round on my surgical patients in the evening, but I might be too tired tonight. I’ll just call the nurses over there and ask for a run down.
+
+My office is located way in the back of our practice. Philip snagged the larger office, but mine is large enough. And unlike his office with the leather couch and mahogany desk, I’ve got a simple wooden desk I bought online, with a small bookcase stuffed to the brim with every textbook I purchased since medical school. There are two wooden chairs set up in front of the desk in case I decide to bring a patient in here—an event that has yet to occur.
+
+Philip peeks in my office and wags his eyebrows at me. He always looks like he’s on the verge of needing a haircut, but somehow he pulls it off. “You leaving soon, Nora?”
+
+“Nope.”
+
+He flashes his teeth at me. “You work way too hard. You need to go out and have a little fun sometimes. Like me.”
+
+I notice now that he’s changed out of his scrubs into a dress shirt and dark brown pants. “Are you going somewhere?”
+
+He winks at me. “Hot date.”
+
+“As long as it’s not with Harper.”
+
+Philip throws back his head and laughs. “Not after the way you lectured me for like two weeks about not going near her. Anyway, she won’t shut up about that Sonny guy.”
+
+“So who is the lucky lady? Anything serious?”
+
+“Oh sure.” He grins. “I’m always on the lookout for the next ex-Mrs. Corey.”
+
+Philip got divorced a few years ago, and it was not amicable. And by that, I mean she slashed his tires once in our parking lot. I have no idea how they’re managing to co-parent their kid. He barely talks about it anymore, except to say that she pretty much took him to the cleaners in the divorce. He deserved it after what he did to her.
+
+“Anyway,” he says, “you should get out there more. Date some guys.”
+
+“No thank you.”
+
+“I’m serious.” He raises his eyebrows. “I don’t think I’ve seen you go on a date once in all the time I’ve known you.”
+
+That could be true, but I’m not about to admit it. “I had no idea you were so well-versed in my personal life.”
+
+“It’s just strange. It’s not like you aren’t attractive.”
+
+I cough. “Gee, thanks.”
+
+“We should go out this weekend,” he says. “You and me. Come on, it’ll be fun. We’ll go to a bar and I’ll be your wingman.”
+
+I snort. “I don’t think it works that way.”
+
+“No, it will be great. I’m good at scoping out which guys are the jerks.”
+
+“Because you are one?”
+
+He touches his nose. “Exactly.”
+
+“Sorry, not interested.”
+
+“How come?” He narrows his eyes at me. “Seriously, Nora, what’s the deal? How come you never do anything besides work?”
+
+“I like to work.” I lift a shoulder. “And actually, Philip, I would say my personal life is my business. Don’t you think so?”
+
+“Okay, fine.” He raps on the side of the door with his fist. “Anyway, I just wanted you to know, even after all that hard work, I’m still winning.”
+
+I lean back in my ergonomic leather chair. “What? No way.”
+
+“It’s true. I checked.”
+
+I grit my teeth. “Check again. I’m pretty sure I’m ahead.”
+
+Philip and I both love to operate. And we both also love to compete. So we have a yearly competition over who logs the most surgical cases. The winner gets bragging rights and a case of really good wine. Last year was the first year I was victorious, and I intend to win this year as well.
+
+Actually, I intend to crush him. I’ve cut into far more people this year than he has. There’s no way he’s ahead.
+
+I reach for my black cup to get a jolt of caffeine, which I’m going to need considering how early I got up this morning. The mug barely makes it to my lips before I realize it’s empty. There are coffee grounds dried along the edges.
+
+“You know,” Philip says, “you shouldn’t be drinking coffee this late. You’re going to be up all night. And that’s fine if you have a social life, but you’re probably going to just be lying awake in bed.”
+
+“Thanks for the advice.” I drop the coffee mug back down on my desk. “I don’t suppose you’ll throw another pod in the machine for me and bring me another cup?”
+
+“I think you’ve mistaken me for Harper.” He scoffs. “But I’ll rescue you by taking this cup back to the sink so you can forget about it. If there’s one thing you don’t need more of, it’s caffeine.”
+
+I start to protest, but Philip has already grabbed my coffee cup and taken it away from me. As he leaves the room, I concede that he might be right. I probably have had enough caffeine for today. I lie awake too many nights.
+
+Philip is right about something else—I never date. If I made an effort, I could be extremely attractive. I inherited my looks from my father, who was just handsome enough to get young women to let their guards down, but not so handsome as to attract undue attention. That’s exactly the amount of attractive I am. But with my jet black hair swept back behind my head and my potato sack scrubs, people don’t usually look twice. That’s purposeful.
+
+A relationship is a bad idea. I’ve always had trouble getting close to men. And even if I did get close to someone, then what? Marriage? Children? And then…
+
+Well, everyone knows what came next for my father.
+
+No. It’s better this way. Like I said, I prefer to be alone.
+
+I’ve been waiting for an abdominal CT result on one of my patients. The hospital was supposed to fax it over to our clinic, but I don’t see it scanned into the computer yet. I look around back, to see if Sheila is around, but she’s already taken off for the day. I head to the front to see if the fax is in the machine, and I’m surprised to see Harper is packing up her things.
+
+I blink at her. “You’re still here?”
+
+“Oh.” She puts her left hand protectively over a book on the desk in front of her. “I was just reading—”
+
+I look down at the book on her desk. It’s a thick biology textbook. My heart leaps. “Harper! Did you enroll in a biology class?”
+
+Little pink circles appear on each of her cheeks. “Yes. I’m trying it out. I’m not doing a whole post-bacc program yet, but I thought I could try—”
+
+“Harper!” I can’t help myself—I throw my arms around her shoulders. I am not much of a hugger—actually, I can’t stand casual physical affection and had to have a talk with Philip about it when I started here—but I’m so happy for her. Harper is made for a career in medicine. She’s been trying to figure out what to do with her life, and I’ve been gently nudging her in that direction. I’m thrilled she took my advice.
+
+“It’s not a big deal,” she mumbles, although she’s smiling. “Don’t make a big deal out of it, okay?”
+
+“I won’t,” I promise, although I’m still really excited for her. “What are you learning now in biology?”
+
+“We’re learning about sexual reproduction in plants,” she says. “Did you know plants have sex? And believe it or not, it’s super boring. Not fun at all. Nobody would read plant erotica.”
+
+I laugh. “Wait until you get to worm reproduction. It’s all downhill from here.”
+
+Harper’s dimples pop as she tucks a strand of dark hair behind her ear. Unlike me, she usually wears her hair down, and the dark color complements her blue eyes. Blue eyes and dark hair. I can’t help but think that it’s the same combination my own father found especially alluring. The girl they found in our home, Mandy Johansson, had blue eyes and dark hair. So did almost all of his victims.
+
+Every once in a while, I look at Harper and I see Mandy Johansson. And I think I’m going to be sick.
+
+But there’s nothing to worry about. My father is in prison.
+
+“Anyway,” Harper says, “I better get going. I’m meeting Sonny for dinner tonight. We’re going to this great restaurant. I think he might… you know…”
+
+Her eyes are shining. She thinks he’s going to propose.
+
+“Oh, Harper!” I want to throw my arms around her yet again, but that would be very strange behavior for me. But this girl brings it out in me. I’ll never have children, but I feel something almost maternal towards her. “That’s incredible! I can’t wait to see the ring tomorrow!”
+
+“Don’t jinx it,” she giggles.
+
+Harper slings her purse onto her shoulder and takes off to go home and change before her fancy dinner with Sonny. I’m happy for her.
+
+But there’s a tiny part of me that feels a twinge of jealousy. Harper deserves every happiness in the world, but I always get that twinge when somebody I know finds their other half and ties the knot. That will never happen for me. I have an unbelievable career—everything I ever wanted—and I made the decision a long time ago that it would be all I would ever have.
+
+I don’t want to get greedy. Look what happened to my father.
+
+
+
+
+
+Chapter 6
+
+
+
+
+26 Years Earlier
+
+
+
+Nobody at school likes Marjorie Baker.
+
+I can see why. There’s just something about Marjorie that is so annoying. Like, everything she says, she sounds like she’s whining. Every time she raises her hand and asks a question, you just want to say, “Shut up, Marjorie!”
+
+I wouldn’t say that. But other people do.
+
+She always seems confused in class. Mrs. McGinley will be explaining something that isn’t even that hard, and Marjorie just doesn’t get it. I can see her screwing her face up, trying to understand. And then we all have to wait and can’t move on, because Marjorie doesn’t understand.
+
+Also, Marjorie isn’t pretty. If she were pretty, she could get away with more. But she’s not. First of all, her front teeth are just way too big for her mouth. They need to be shrunk by about thirty percent. Her face is too long and her forehead is gigantic. Also, she’s kind of lumpy. Like a sofa you might find out on somebody’s curb.
+
+“Did you ever notice,” Tiffany Kirk says during recess today, “that when Marjorie walks, she waddles?”
+
+We all look across the playground, to where Marjorie is walking over to sit on the far steps with her book like she does every day. And Tiffany is right. Marjorie does sort of waddle.
+
+“Oh my God,” Kari Smith says. “You’re right! She looks like a duck!”
+
+And then the other girls all start making quacking sounds. Loud enough that Marjorie turns around to look at us, and we all burst into hysterical giggles. Well, I don’t. But the rest of them do.
+
+Marjorie is used to it by now. Her cheeks turn pink, but she doesn’t say anything. Sometimes I wish she would fight back. Marjorie never ever fights back. If Tiffany or Kari tried to do something like that to me… well, they wouldn’t. They know better.
+
+The girls stand around another few minutes, trash-talking Marjorie, but then we move on to other more interesting topics. But weirdly, I’m still thinking about Marjorie. I watch her across the playground, reading her book all by herself because nobody will play with her. I can’t keep my eyes off of her.
+
+I usually walk home alone from school every day. But today, I find myself following Marjorie, even though it’s in the wrong direction. I stay close enough behind her that I can keep her in my sight, but far enough that she does not know I’m behind her. She is totally in her own universe. I’ve never seen anyone so unaware of the world around them. It’s dangerous. Like, somebody could attack her, and she wouldn’t even realize it until they were five inches away from her face. And then it would be too late.
+
+After about five minutes of walking, we come to a little patch of woods where I know some people go hiking. Marjorie walks right past it, but I slow to a stop. I look down the uneven trail, which is completely empty. People don’t hike there much, and definitely not in the middle of a weekday afternoon.
+
+It’s interesting, that’s all.
+
+Another ten minutes later, Marjorie walks into the front door of a little white house with a broken shutter on the second floor. The front lawn is totally overgrown. My parents would never let our lawn look that way—Dad would freak out. Dad is really particular about everything being clean and well groomed. He always says, Cleanliness is next to godliness. But Marjorie’s parents obviously don’t feel the same.
+
+Once she disappears inside, I creep closer and slip around the side of the house. Besides Marjorie, I don’t think there’s anyone else home. There’s no car parked in the driveway.
+
+There are a bunch of dandelions sprouting along the side of the house. My dad once explained to me that even though dandelions are yellow and pretty, they’re actually weeds and will wreck your whole garden. But even so, I’m careful not to trample them as I look through the window. Marjorie is sitting in the middle of the living room, on the sofa. She’s got a bag of potato chips in her hand, and she’s stuffing them into her mouth. She eats almost rhythmically.
+
+Potato chip. Chew chew chew. Potato chip. Chew chew chew.
+
+After watching her for about ten minutes, I’m sure there’s nobody else in the house. Marjorie is coming home to an empty house every afternoon.
+
+I get out of there before anyone can see me. If anyone caught me watching the house, it would be bad. Dad always says that if you’re going to do something wrong, at least be smart enough not to let anybody see you do it. He said that after I stole some cookies from the pantry. You knew we were going to notice them missing and realize you stole them. It was a stupid crime, Nora. Don’t be stupid next time.
+
+I head in the opposite direction back to my house. Unlike at Marjorie’s house, my mother is waiting anxiously by the front door when I come in.
+
+“Nora!” She plants her chubby hands on her hips. “Why are you so late? I was worried!”
+
+“I had a project I was working on with some friends at school.” I know from experience my mother can’t tell when I’m lying. Not anymore.
+
+She lets out an exasperated breath. “Well, next time could you let me know in advance if you’re going to be late?”
+
+“I might be late again later this week,” I tell her. “I’ll let you know.”
+
+“Okay.” She leans in to wrap her arms around me and kisses the top of my head. I squirm out of her grasp. “Do you want a snack, honey? I can cut up some apples for you. With peanut butter.”
+
+My mother always is offering me food. All she seems to think about is cooking and baking and making snacks. It’s like she’s obsessed with it.
+
+“That’s okay. I’m going to go up to my room and do my homework.”
+
+“Okay, sweetheart.”
+
+She attempts to kiss the top of my head again, but I manage to duck away. While she goes back to the kitchen, I head down the hallway to the stairwell, but as always, I pass the door to the basement. Dad’s been down there a lot this week. He was away on a fishing trip all weekend, and now this week he’s been in the basement nonstop. I’ve hardly seen him.
+
+I pause at the basement door, inhaling that familiar whiff of lavender. And then, while I’m standing there, I hear something.
+
+I frown at the door. Dad isn’t home yet, so why is there noise coming from the basement? It sounds like something banging. It’s soft, but I can definitely hear it.
+
+And then something else. Almost like a muffled scream.
+
+What’s going on down there?
+
+I place my hand on the doorknob. I give it a good twist, but of course, it doesn’t open. The basement door is always locked.
+
+“Nora, what are you doing?”
+
+My mother’s voice is sharp. I leap away from the door, hiding my right hand behind my back. I try my best not to look guilty.
+
+“I… I thought I heard a sound coming from down there,” I mumble.
+
+She wags a finger at me. “You know that’s your father’s private space to work. I don’t want you trying to get down there.”
+
+“But I heard—”
+
+“Maybe something fell,” she says. We both stand there, listening for a moment. But it’s become silent. “Anyway, it’s none of your concern. I thought you had work to do.”
+
+“I do.”
+
+“Then go upstairs and do it, okay?”
+
+“But…” I stare at the basement door and inhale deeply, the molecules of lavender filling my lungs. “Maybe if something fell, we should check on it. Maybe something is broken.”
+
+“If something is broken, he’ll deal with it when he gets back from work.”
+
+“What’s he even making anyway?” I grumble.
+
+My mother hesitates. “He says he’s building a bookcase. Either way, he doesn’t need your help.”
+
+I stomp my foot and turn away from the basement door, and go up the stairs. I don’t understand why the basement has to be so private. I’m not going to go down there and mess around with Dad’s stuff. Why can’t I at least see what he’s been working on?
+
+And what was that noise? It really sounded like screaming.
+
+But it couldn’t be.
+
+When I get up to my room, I plop down on the bed with my backpack next to me. I rifle around inside, searching for my composition book. I also look in the smaller pocket in the front for a pencil. I’ve got like a million pencils and pens in that pocket. I also have one other thing. A penknife—another present from my dad at Christmas last year. He told me I should carry it all the time. For protection. Not that it’s dangerous around here. We basically live in the safest and most boring neighborhood on the planet.
+
+Once I get out my notebook and a pencil, I’ve got to get started. My only homework is I’m supposed to write an essay about a book we were assigned. It shouldn’t take long. I already finished the book a few days ago—I’m a quick reader.
+
+I look across the room at the cage on top of my bookcase. Up until a week ago, that cage was occupied by the mouse that dad got me for my birthday. And then over the weekend, the mouse died. Very suddenly. Now he’s buried out in the backyard in a shoebox. We had a mouse funeral, and my mom kept talking about how sad it was that the mouse died, although it wasn’t all that sad. I mean, it was a mouse.
+
+I open up the composition book and turn to the first blank page. I’m supposed to be writing about Charlotte’s Web. But I can’t think of anything to say. I mean, it was a good book, I guess. What can you say about a book involving a spider and a pig?
+
+I stare down at the blank page. I press the lead of the pencil against the page. And I write down the name Marjorie Baker.
+
+And I underline it.
+
+
+
+
+
+Chapter 7
+
+
+
+
+Present Day
+
+
+
+It’s raining when I finally finish up my work and head downstairs. I stand in the lobby for a moment, watching the plump droplets of rain fall from the sky. I don’t have an umbrella. I’m not even sure I own an umbrella. Well, there’s probably one in the back of my closet somewhere, but it doesn’t do me much good right now.
+
+I pull up the hood on my jacket and sprint across the small parking lot to my Camry. I yank open the door and jump inside, then pause to assess the damage. My scrub pants are fairly damp, but at least my hair seems to have been spared. There are water droplets in my eyelashes.
+
+Considering I am wet and uncomfortable, this would probably be a good time to head home. Maybe make myself a warm beverage and watch a little television before I turn in.
+
+But I don’t head home. Instead, I punch an address into my GPS, one not far off the freeway. When I reach the block of my destination, I turn off my headlights. I park across the street and stare out the window.
+
+“You have reached your destination on the left,” Siri tells me.
+
+“Thanks,” I murmur.
+
+I stare out at the Kelloggs’ front door through my windshield as the wiper blades swish back and forth.
+
+I don’t entirely know why I came here. I noted his address on the billing form, and it stuck in my head. I meant to drive straight home, but instead, I got to thinking about Mrs. Kellogg’s black eye. And before I knew it, I was typing their address into my GPS. And now I’m here.
+
+I stare across the street, into the glowing windows of the first floor of their house. I don’t see any silhouettes in the window. They’re probably in the dining room having dinner. Or maybe watching TV on the sofa together.
+
+I look down at my fingers, gripping the steering wheel so hard, my knuckles are white.
+
+I take a shaky breath. Then another.
+
+Then I throw the car back into drive and get the hell out of there.
+
+I don’t want to go home now. The idea of coming home to my empty house makes me feel slightly ill. So instead, I find myself navigating the wet roads and heading over to Christopher’s again. I feel like having another Old Fashioned tonight. Just one.
+
+It occurs to me as I’m pulling into the parking lot that Henry Callahan might be here tonight again. My heart skips a beat at the thought of it.
+
+God, I need that drink.
+
+The rain is still coming down, so I put my hood back up and dash through the parking lot to get to the entrance. Fortunately, I don’t see any familiar faces when I walk into Christopher’s. Well, except for the bartender. It’s the same guy from yesterday. The one with the nondescript brown eyes and hair and the perpetual five o’clock shadow, who stood up for me when Callahan was hassling me yesterday. The one who looks strangely familiar—that feeling I’ve met him before is even stronger this time.
+
+I watch him as he uses his bottle opener to take the cap off a bottle of beer. He slides it onto the table for a customer then scoops up the payment and tip. I’m convinced I know this man. But from where?
+
+I sit down at the bar and wait for him to take notice of me. Maybe it’s my imagination, but his eyes light up slightly when he sees me. “Another Old Fashioned, Doc?” he asks me.
+
+That voice. His voice is familiar too. This is driving me crazy. “Yes, thanks.”
+
+He assembles the drink in front of me. Maybe it’s my imagination, but it looks like he’s giving me more whiskey than yesterday. When he’s finished, he slides the amber liquid across the counter in my direction. “Enjoy.”
+
+I wrap my fingers around the cool glass. “Wait,” I say.
+
+He raises his eyebrows.
+
+I clear my throat. “Do I know you?”
+
+He freezes. From the expression on his face, it’s obvious he knew exactly who I was from the moment he laid eyes on me. And he didn’t tell me.
+
+“Yes,” he finally says. “I… my name is Brady Mitchell.”
+
+And then… oh my God, it all comes back to me. “We dated!”
+
+One corner of his lips quirks up. “You could say that, yes.”
+
+Except that’s an understatement. And he knows it. We didn’t just have a few dates. He was my boyfriend… sort of. But it was ages ago. Back in college. He was, in fact, the teaching assistant for a computer science class I was taking. After the class was over and my grade was in, he asked me out, and I found him so adorably dorky, I said yes.
+
+But he’s not dorky anymore. He looks very different—it’s no wonder I didn’t recognize him right away. He grew up. He used to be clean-shaven and skinny and gangly, but his face filled out and… Well, it’s hard not to notice his chest filled out too. And why is he bartending? The guy has a bachelor’s degree in computer science. He was a genius—he could do anything with a computer.
+
+“Why didn’t you say it was you?” I ask.
+
+His eyes meet mine, and he doesn’t need to answer the question. Obviously, he doesn’t feel great about where his life is right now. I don’t know how he ended up this way. Not that being a bartender is terrible, but I expected he would be the next Bill Gates by now. Something went wrong. Got caught hacking? Drugs? I have no idea.
+
+“Anyway,” he says, “congratulations on your career. I remember you always wanted to be a surgeon. Not that there was any doubt. I’ve never seen anyone so dedicated. You did everything except make a sacrifice to the premed gods.”
+
+“Thanks.” (I think.)
+
+I take a sip of my drink, enjoying the warm feeling that comes over me. Brady Mitchell. My God. We dated for about three months, if I’m remembering correctly. He was nice. I was the one who ended it, but I don’t think it was overly traumatic. We ended on good terms.
+
+The part I’m having trouble remembering is why I ended it. I must have had a reason, beyond just three months being the upper limit of how long I’m willing to date a guy (which is true). I’m sure I had a good reason for breaking up with Brady.
+
+But why?
+
+Well, I can’t exactly ask him. Even if I told him the truth at the time, which I suspect I did not.
+
+“You’re wondering why I’m working here,” he says.
+
+I blink at him. “No…”
+
+He makes a face at me. “Oh, come on. Look, I don’t blame you. I’d be wondering too.”
+
+I shrug. “Not really.”
+
+“Oh? Well, in that case, I’m not going to tell you.”
+
+“Fine,” I concede. “I’m wondering. A little.”
+
+He nods, satisfied. “So I came out here because I got a great job in Silicon Valley,” he says. “But dumbass that I am, I quit my awesome job to join what I thought was an incredible startup. Which then failed spectacularly. So I am currently passing my resume around, and it’s not going great.” He looks around the bar. “This is so I don’t end up living in a cardboard box, you know? Those boxes are not very comfortable to sleep in.”
+
+“Right.” I think for a minute, wondering if there are any strings I can pull at the hospital to get him an IT job. But I’m not sure if he’d appreciate that. “I’m sure you’ll find something else.”
+
+“Yeah… The job market isn’t great now. Of course, it’s all my fault.” He rubs at his chin which has even more stubble than last night. Back in college, he could barely grow a beard—now it seems to be happening against his will, as the night goes on. “But the truth is, I like working here. It’s a good break. I was going cross-eyed sitting in front of a computer day in day out for fifteen years. And carpal tunnel sucks.”
+
+He smiles at me again. Boy, he’s cute. Why on earth did I break up with him? It’s driving me nuts that I can’t remember. “I always figured you’d be married by now,” I remark.
+
+He glances down the bar to make sure nobody is trying to get his attention. But it’s quiet tonight. “I was. Not anymore.”
+
+“Oh. I’m sorry.”
+
+“Don’t say sorry.” He shakes his head. “Back when I was married, that would be the time to say sorry. Now you should say congratulations, because I’m out.”
+
+“Oh. Well, congratulations.”
+
+“Gracias.” He looks pointedly down at my left hand. No ring. “How about you?”
+
+“No, never went that route.”
+
+He snorts. “Not surprised.”
+
+I inhale sharply. “Why?”
+
+He laughs. “That was your mantra in college, wasn’t it? I will never get married, Brady. I never want kids.”
+
+“Oh, right. I guess I knew what I wanted at an early age.”
+
+I take another sip from my drink. I don’t know if it’s the alcohol or what, but I don’t remember feeling quite this drawn to Brady back in college. I liked him, but he’s on another level of sexy now. But so what? Nothing is going to happen. It’s been too long. And also, I just noticed a splatter of blood on the leg of my scrub pants, right in that gap between where my gown ended and the booties began during my surgical cases from today. That’s pretty much the opposite of sexy.
+
+Well, unless you’re my father.
+
+“That guy from yesterday…” he says. “He didn’t bother you after you left, did he?”
+
+I decide not to mention the fact that Callahan started following me as I drove home last night. It would just worry him. “No.”
+
+He leans on the counter close enough that I could smell a hint of his aftershave. “I was worried, you know. I was about to go to the door and watch to make sure you made it to your car okay, but then this big crowd of customers came in together and I had to deal with them.”
+
+“It’s fine. I could’ve handled him.”
+
+A smile plays on his lips. “Yeah. I’ll just bet you could have.”
+
+Why can’t I remember why I broke up with you?
+
+Somebody is calling for Brady to get a drink, so he leaves me alone. I sip on my Old Fashioned, watching him. There’s a woman at the other end of the bar ordering a drink, and she’s flirting with him. Her hand is on his forearm, and she’s laughing at some joke he made. Or maybe just laughing. He’s flirting back, but a few times, I catch him looking in my direction.
+
+I don’t want to encourage him though, so I turn my attention to the television screen over the bar. The evening news is on this time. The handsome reporter is talking about a young woman named Amber Swanson who’s been reported missing. The police are searching, but she’s disappeared without a trace.
+
+It’s a dangerous world out there.
+
+I finish the last of my drink and pull out my purse to pay him. But before I can get out my wallet, Brady is suddenly back in front of me. He’s staring across the counter of the bar with his nice brown eyes.
+
+“Hey,” he says. “You heading out?”
+
+I nod. “Yes.”
+
+“Got an umbrella?”
+
+I glance out the window. The rain seems to have intensified since I’ve been here. Gigantic droplets are plummeting from the sky. “I’ll be fine.”
+
+Brady reaches under the bar. He pulls out a small folded umbrella and holds it out to me. “You don’t want to get soaked.”
+
+“I don’t want to steal your umbrella.”
+
+“Steal it—please. It’s pouring out there.”
+
+I almost refuse again, but he’s insistent. I have a feeling he’s not going to take no for an answer. “Well, thanks.”
+
+He hesitates for a moment. “I get off work in half an hour. Do you want to go get a drink?”
+
+I stare down at my drained cocktail. “I think I’ve had enough for the night. You’re not trying to get me drunk, are you?”
+
+“Okay, okay…” He raises an eyebrow. “Dinner then? I know a great Greek place.” He grins at me. “We can catch up on old times. It’ll be fun.”
+
+Right. We can “catch up” on “old times.” Although I have no doubt it will be fun.
+
+“Hmm.” I fiddle with my wallet, even though I already know what I’m going to say. “The thing is, I’ve been up since five in the morning.”
+
+“Yes, but you seem so bright and perky.”
+
+“Looks are deceiving.” I smile apologetically as I drop a ten-dollar bill on the table. “Plus I have to be up early tomorrow morning. Life of a surgeon, you know?”
+
+“I don’t.” He sighs and shakes his head sadly. “But I do appreciate you letting me down easy, Nora. I always liked that about you.”
+
+“Happy to oblige.”
+
+Am I making a mistake? Maybe a night with a cute guy is just what I need. But no. I have a feeling if I spend the night with him, it won’t just be a night. There’s something about him…
+
+“Listen.” His mild brown eyes stay on mine. “If you change your mind, I’ll be here another half hour, like I said. And I’m on tomorrow night too. Just in case you wake up tomorrow, deeply regretting not hanging out with me.”
+
+I feel a smile twitching at my lips. “What if you change your mind?”
+
+“No chance of that.” He nods at the black umbrella I’m clutching in my right hand. “Besides, you have to come back to return my umbrella.”
+
+He holds my gaze for another moment. To be honest, I’m very tempted to change my mind. But I decided a long time ago this isn’t a good idea. I know who I am, and I know what I can handle. So I get up off the barstool and leave Christopher’s. I’ll return the umbrella when he’s not around, and then I’ll find a different bar to go to until he finds another job.
+
+
+
+
+
+Chapter 8
+
+
+
+
+The rain is coming down in buckets.
+
+Even though I tried to refuse it, I’m intensely grateful for Brady’s umbrella as I sprint to my Camry. Even with the protection, my right foot plunges into a massive puddle and soaks through my clog down to my sock. There will be no more stops on the way home.
+
+I toss the umbrella into the passenger seat beside me and get on the road to go home. I can’t wait to get back to my house and change into something warm and dry. On days like today, I wish I had figured out how to get my fireplace going. Maybe someday.
+
+I turn down the side road to get back to my house. But the second I turn off the main road, I become aware of the headlights behind me.
+
+Oh God. Not again.
+
+My heart starts pounding in my chest. Maybe it’s just a coincidence. Yes, this road is usually deserted. But I do occasionally see people on it. And I didn’t see Henry Callahan anywhere at Christopher’s. Would he really waste his time following me two nights in a row?
+
+Of course, I did have Harper call him and fire him from my practice. He may not have appreciated that.
+
+After the third turn in a row with the headlights staying far too close for comfort, I can’t deny this is unlikely to be a coincidence. This car is definitely following me.
+
+When I slow down at a red light, I stare hard into the rearview mirror. It’s a blue Dodge behind me—I’m certain of it. And the silhouette of a man in the driver's seat looks familiar as well. Henry Callahan is having a little fun with me again.
+
+He turns on his high beams. Light floods my vehicle, and I’m nearly blinded for a moment.
+
+I take a deep breath.
+
+What would my father do?
+
+I’ve been taking this route home for years. I accelerate slowly down the narrow path, watching in the rearview mirror as the car behind me does the same. No matter what I do, he is staying very close. Dangerously close.
+
+I could drive to the police station again. But I don’t.
+
+Again, I veer off the usual route that I take when I go home. Instead, I go on a different path. One that I often take to the hospital and know extremely well. It’s narrow, with lots of turns. Turns that are hard to see on a dark, stormy night.
+
+And then I push my foot on the gas.
+
+After about two minutes, I see the sharp turn approaching. I only know it’s there because I’ve driven this way so many times. There’s a sign, but it’s impossible to see in the dark, with the rain. I gently switch my foot to the brake and turn the steering wheel.
+
+My Camry glides over the turn with only a slight screeching of the wheels. The small Dodge doesn’t handle nearly as well. And also, he didn’t see it coming.
+
+I hear the crash before I see it. Metal crunching as the Dodge wraps itself around a tree. I wince at the sound of it, and then I glance in my rearview mirror. I can see smoke billowing up from the collision. The headlights are gone.
+
+Once I put a little distance between myself and the collision, I bring up the Bluetooth on my phone. “Call 911,” I say.
+
+After a few rings, I hear a female voice on the other line. “This is 911. What’s your emergency?”
+
+“I… I think I passed a car accident on the road behind me,” I say with just the right amount of concern in my voice. “The driver might be hurt.”
+
+I give the 911 operator the approximate location of the accident before hanging up. And then I keep driving. I don’t stop. I don’t check that he’s okay. I certainly don’t contemplate performing CPR or other life-saving maneuvers.
+
+I leave him there.
+
+See, there’s something you should know about my father, Aaron Nierling.
+
+My father is an incredibly dangerous man, who has done unspeakable things. He has committed evil, terrible acts, without even the slightest twinge of remorse. He’s the sort of man you wouldn’t want to run into in a dark alley. Or the street. Or anywhere.
+
+And as they say, the apple doesn’t fall far from the tree.
+
+
+
+
+
+Chapter 9
+
+
+
+
+When I get home, the house somehow seems even more empty than usual. I step out of the garage and into the foyer, flicking on the lights.
+
+“Honey, I’m home!” I call out.
+
+My voice echoes through the first floor. I’m grateful I didn’t buy one of those giant houses on the market, even if I could (just barely) afford it. Anything larger than this would be frightening at night. Not that I’m easily scared.
+
+As I stand in the hallway, I wonder if the paramedics made it out to Henry Callahan yet. I wonder if he survived the crash.
+
+I feel a sudden flash of guilt. Yes, it was his fault for following me, and I wasn’t the one who made him crash. But I knew what was going to happen at the turn. I could’ve at least gone back to see if he needed medical attention.
+
+But I didn’t.
+
+I should have stopped. I’m a doctor—if he was in distress, I could’ve helped him. And I chose not to. It’s the sort of thing my father would have done. Not me. I’ve chosen to live my life differently.
+
+But then I push away the guilt. He was the one following me. The bastard had it coming.
+
+Anyway, I’m not going to think about it anymore.
+
+This morning, I stuck a load of laundry in the dryer before I left the house, and I figure I’ll go grab it before I eat dinner. I hate it when there’s a load of laundry sitting in the dryer. It’s like I can sense the laundry in there, taunting me. Put me away, Nora.
+
+That’s not strange, is it? Doesn’t everyone’s laundry talk to them?
+
+I open the door to the basement and I flick on the lights. My house is relatively old, and the basement came unfinished. I considered fixing it up, but I’ve got plenty of space on the first two floors of my house. What do I need a finished basement for?
+
+But on the occasion I made the mistake of inviting Philip over, he was emphatic that I should get the basement fixed up. It looks like a dungeon down here, Nora.
+
+As I step down the concrete stairs to the basement, I recognize the truth in his words. The walls of the basement are made of brick, and the dull gray paint covering the ceiling is cracking. The only light in the room is a single lightbulb hanging from the ceiling, which flickers slightly as I walk across the room.
+
+This basement looks exactly like a dungeon.
+
+You don’t want your house to look like a dungeon, do you? Philip had said. But as I look around the room now, I wonder if perhaps that’s exactly what I wanted when I chose this house. After all, my father built a dungeon in our basement. But I was savvy enough to buy a house with one already supplied. It looks, in fact, a lot like the basement back in my childhood home. There’s even a lock on the basement door, even though I usually keep it unlocked.
+
+I take a deep breath, and for a moment, I detect a hint of lavender.
+
+I shake my head to clear it, and I sprint over to the laundry machine. As quickly as I can, I stuff piles of clean scrubs into my laundry basket. Then I race back up to the first floor and slam the door to the basement behind me.
+
+I lean my forehead against the door to the basement, breathing hard. I swallow a lump that has lodged itself in my throat. I don’t know why it smelled like lavender down there. I don’t use any cleaning supplies that have lavender in them. I must’ve been imagining it. Anyway, it doesn’t look that much like my father’s basement.
+
+Does it?
+
+From the back door, I can hear the familiar sound of that cat bashing her head against the door. I swallow down the lump in my throat and drop the basket of laundry on the ground. I’ll feed the cat, then I’ll put away the laundry. Then I’ve got to eat something. About half of my panic attack in the basement was probably due to hypoglycemia.
+
+I grab a can of cat food from the cabinet. Pork this time. I open up the back door and the cat is looking up at me. I’ve never taken care of a living thing before—not even a plant—and I don’t dislike it. I’m glad I’m making the cat happy.
+
+I empty the can of cat food into the bowl, and the cat laps at the food happily. I hesitate for a moment, then I run my hand along her back. Her fur is so soft. She pauses in the middle of eating and lifts her head to nuzzle against my hand.
+
+It’s cold out tonight. Maybe I should let the cat stay in my house. It would be nice not to be alone in here, just for one night…
+
+No. No. God, what am I thinking? I can’t have a cat. Hasn’t the past taught me anything?
+
+I yank my hand away from her fur. The cat gives me a hard look—or at least, as much as possible—but then she goes right back to eating. I quickly close the back door, lock it, and go make dinner.
+
+
+
+
+
+Chapter 10
+
+
+
+
+The next morning, I’m able to wake up at a luxurious seven in the morning. (I was lying to Brady last night. I don’t have any surgeries this morning.) I stop by a coffee shop to get a caffeine infusion for myself, Sheila, Harper, and even Philip. They put the piping hot drinks in one of those trays made to balance four cups, and I arrive at work an impressive fifteen minutes before my first patient.
+
+“Coffee!” I sing out to the empty waiting room. I feel good this morning. Like I could keep going for the next two days without stopping. “Brought one for everyone!”
+
+I spot Harper and Sheila at the front desk. I remember Harper’s dinner last night with Sonny, and I plaster a smile on my face. “Harper! Let’s see the ring!”
+
+Too late, I notice Sheila shaking her head at me. Then I see Harper’s puffy eyes. Uh oh. Sounds like the dinner last night didn’t go quite as planned.
+
+“Are you okay?” I ask gently as I rest the coffees on the desk.
+
+Harper looks up at me. The whites of her blue eyes are bloodshot, and her button nose is pink. “He dumped me.”
+
+“Oh, Harper… I’m so sorry…”
+
+Her eyes fill with fresh tears. “He wasn’t taking me to a nice restaurant to propose. He was taking me there so he could dump me and I wouldn’t be able to make a scene.”
+
+“You should have made a scene anyway!”
+
+She shakes her head. “What’s the point?”
+
+“The point? The point is that you make him pay. You make him—” I see the expression on Harper’s face and realize that I’m talking to the wrong person. “Listen, you could have any guy you want. And now you can focus all your energy on your studies.”
+
+“Nora is right,” Sheila speaks up. “Harper honey, you’re gorgeous. You’re way too good for him. Mark my words, in a month he’s going to beg you to take him back. And you are going to say no way.”
+
+Harper offers a brave little smile.
+
+Philip waltzes into the office at that moment, whistling a little tune under his breath. Philip likes to whistle. He even does it during surgeries. It drives the scrub nurses batshit crazy.
+
+“Hey.” He skids to a halt when he sees us standing all together and Harper’s teary eyes. “What’s going on here? Everything okay?”
+
+“Girl talk,” I snap at him.
+
+He grins at me. “Like, you’re talking about your periods…?”
+
+I could strangle him sometimes. “No.”
+
+“Sonny broke up with me,” Harper blurts out.
+
+“Oh.” Philip manages what is actually a very empathetic expression. “I’m sorry to hear that, Harper. But I’m sure you’ll find somebody else who is even better.”
+
+It would have been such a nice sentiment if he wasn’t pointing to his own chest when he said it.
+
+“Will you get out of here?” I snap at him.
+
+Philip rolls his eyes, but he goes on back to his office, although not before taking his coffee. Harper reaches for a tissue to dab at her own eyes. Fortunately, she wasn’t wearing any mascara. I’m not sure how she gets her eyes to look so beautiful without any mascara.
+
+“I’m okay, Dr. Davis,” she sniffles. “I promise, I’m fine.”
+
+I look at her doubtfully. She does not look fine at all. But everyone is right. Harper was too good for Sonny. This is the best thing that could’ve happened to her. Even if she doesn’t know it yet.
+
+“Listen,” I say. “On your lunch break, I want you to take the business credit card, and I want you to buy yourself a great lunch, and also… buy yourself a present. Something decadent.”
+
+Harper laughs through her tears. “I can’t do that.”
+
+“You can and you will.”
+
+At least I’ve gotten a smile out of her now. She takes the coffee I bought for her and so does Sheila. I grab my own cup, then I head for my office. I thought I’d have a leisurely fifteen minutes to drink this, but now I’ve got less than five minutes to gulp it down before Sheila comes to grab me.
+
+I log into my computer to check labs, but the computer is being slow booting up. While I’m waiting, I grab my phone and browse a local news website. I scroll down the screen, looking at the headlines. I pause when one catches my attention:
+
+Local Man in Critical Condition After High-Speed Motor Vehicle Collision
+
+I quickly skim the article. Although it doesn’t mention him by name, they confirm the location of the accident. It was definitely Callahan. He was clearly seriously hurt when he smashed into that tree.
+
+A lump rises in my throat. It’s entirely my fault. Of course, if he hadn’t been following me and trying to scare me…
+
+Maybe I should go check on him. The article mentions he was brought to the hospital where I work. I could bring him some flowers. Of course, if he’s in the ICU with a tube down his throat, he probably won’t appreciate it.
+
+I hear a knock at the door and nearly jump out of my seat. I look down at my watch and curse under my breath. How is the first patient in a room already? The waiting room was empty just a few minutes ago.
+
+“I’ll be right out!” I call.
+
+Then I hear another knock. “Dr. Davis?” It’s Harper’s voice. “Can I come in?”
+
+I take another long swig of coffee. “Yes, come on in.”
+
+Harper cracks open the door just a bit and peeks in before she slides through the crack. “Um, Dr. Davis… the, um… the police are here to see you.”
+
+I almost comically spit out the coffee in my mouth. “The what?”
+
+“There’s a policeman.” Harper wrings her fists together. “He said he needs to talk to you right away.”
+
+“About what?”
+
+She just shakes her head.
+
+My thoughts are racing a mile a minute. Why are the police here? What could they possibly want to talk to me about? Does this have to do with Henry Callahan? Did they trace my 911 call and want to blame me for the collision?
+
+But I know one thing. I can’t say no.
+
+“Send him in,” I say.
+
+
+
+
+
+Chapter 11
+
+
+
+
+The policeman who comes into my office is in plain clothes—a dress shirt and tie under his jacket—which makes me think he must be some sort of detective. He’s also significantly older than the cops I see pounding the pavement outside. Maybe late fifties or early sixties—almost the age my father is right now. His close-cropped hair is mostly gray and his shirt buttons strain slightly to hold in his gut.
+
+All I can do is sit there, too petrified to speak.
+
+“Dr. Davis?” The officer smiles, but it’s a halfhearted smile. It doesn’t even get halfway to his dark eyes. “I’m Detective Ed Barber.”
+
+“Hello,” I manage.
+
+Police officers terrify me. Ever since that day my entire life changed when I was eleven years old. But for the most part, since that time, I haven’t had any bad interactions with police officers. Especially since I changed my last name. After my grandmother took me in, she insisted I change my last name to hers. I was eager to oblige. The last thing I wanted was for people to know I was that monster’s daughter. And it’s not like Nierling is a common surname.
+
+“Do you have a minute to chat, Dr. Davis?” the detective asks.
+
+“Not really.” My laugh comes out sounding strangled. “But have a seat.”
+
+Barber doesn’t hesitate to sit down in one of the chairs in front of my desk. As he studies my diploma on the wall, I try my best to talk myself down from the ledge. I had nothing to do with the car accident last night. That was entirely Callahan’s fault. Whatever he’s here about, I haven’t done anything wrong.
+
+Maybe he’s here to get my medical opinion for another case. That’s entirely possible. I’m probably working myself up over nothing.
+
+“Dr. Davis,” he says. “Do you have a patient named Amber Swanson?”
+
+I freeze. That’s the last thing I expected him to say. “What?”
+
+“Amber Swanson. Did you perform surgery on her?”
+
+I pick up a pencil on my desk and tap it against the surface. I don’t understand. Am I being sued? Why would a detective be here about that? “The name sounds familiar.”
+
+“She had an appendectomy.”
+
+Now it’s coming back to me. I was on call for the emergency room a couple of months ago and she came in with right lower quadrant pain. I remember walking into the examining room and finding poor Amber in a fetal position. Fortunately, we got her to the OR before her appendix ruptured. The surgery was entirely successful, and she was in good spirits during her postop appointment.
+
+“Yes,” I say carefully. “I remember her.”
+
+The crease between Barber’s eyebrows deepens. “Unfortunately, Ms. Swanson was found murdered at around three in the morning.”
+
+“Oh!” I clasp a hand over my mouth. “Oh my God. That’s awful. She was only… She was very young.”
+
+“Twenty-five years old,” he says. “Really a shame. She disappeared two days ago, and she turned up floating in the San Joaquin River.”
+
+“Oh my God.” I close my eyes against the image of Amber Swanson’s lifeless body floating in the river. “It’s so terrible. But…” I swallow. “How can I help you, Detective?”
+
+“Well,” he says, “I’m just wondering when the last time you saw Amber was?”
+
+I shake my head. “At her postop appointment. It was probably a few weeks ago.”
+
+“And you haven’t seen her since then?”
+
+“No…”
+
+This entire line of questioning is making me very uneasy. Why is he asking me this?
+
+“Where were you two nights ago, Dr. Davis?”
+
+I frown. “Two nights ago?”
+
+“If you could give me an idea what you did that night…”
+
+I glare at him. “Are you going to all of Amber Swanson’s doctors and questioning them this way?”
+
+Detective Barber watches me for a moment with his dark, shrewd eyes that are much younger than the lines on his face. It’s making me incredibly uncomfortable but I don’t look away. Finally, he leans in closer.
+
+“Here’s the thing, Dr. Davis,” he says. “When we found Amber, both her hands had been severed.”
+
+He knows. Oh God, he knows who I am. He doesn’t even have to say it—there’s only one reason he could possibly be sniffing around me after a revelation like that.
+
+My father had an M.O. All of the bodies of his victims that were found were missing their hands. He severed them and preserved the bones in a chest in our basement. That was why they called him the Handyman. Partially because he had been claiming the basement was his workshop, but also because of the missing hands.
+
+Barber is old enough that he was probably already a cop when my father was apprehended. He probably remembers it, although I’m sure there are databases that would have flagged it even if he didn’t.
+
+“Aaron Nierling is in prison,” I say carefully. “This has absolutely nothing to do with me.”
+
+Barber tilts his head to the side. “Well, he’s your father. So I’d say it has a little something to do with you.”
+
+I feel my face getting hot, but I’m careful not to react. That’s what he wants.
+
+“If you want to question me further,” I say, “it will have to be with my attorney. I’m sure you know as well as I do how ridiculous this is.”
+
+The detective just stares at me. It’s like we’re having a blinking contest. I was always very good at those.
+
+“Dr. Davis,” he finally says, “a young woman has been mutilated and murdered. If you think there’s anything about this I’m not taking seriously, you are very mistaken.”
+
+With those words, he gets up out of his seat with a grunt. He reaches deep into his coat pocket, and for one horrible moment, I’m certain he’s going to pull a weapon on me and tell me to put my hands on my head. But instead, he pulls out a business card. He places it on my desk.
+
+“If you think of any information that might help us,” he says, “call me. Anytime, Doctor.”
+
+I nod. “I’ll do that.”
+
+I watch him amble out of my office, and it isn’t until he closes the door behind him that I feel like I can breathe normally again. But my head is still buzzing. Because there’s one other thing I remembered. One thing I wouldn’t dare say to this detective, but it’s hard not to think about it.
+
+I pull my phone out of my pocket. I go to a search engine and type in the name Amber Swanson.
+
+Yes, Aaron Nierling had an MO. But he also had a type. Women in their twenties, with dark hair and blue eyes. Almost always.
+
+The search engine finds several Amber Swansons, but I know who I’m looking for. It’s been several weeks, but I remember her face. There’s just one detail I’m not certain about. But when I find a picture of her, it jogs my memory.
+
+She’s just as I remember her. Mid-twenties. Beautiful, with flowing dark hair. I remembered all that perfectly. But what I wasn’t certain about is now staring me right in the face.
+
+Her clear blue eyes.
+
+
+
+
+
+Chapter 12
+
+
+
+
+26 Years Earlier
+
+
+
+During lunch, Tiffany gets the idea to wad up little white pieces of paper and turn them into spitballs. She sticks one into her straw, purses her little pink lips, and blows into the straw. The spitball flies into the air and lands square on the back of Marjorie Baker’s stringy brown hair.
+
+Marjorie swats at the back of her head, where the spitball is wet and shiny between strands of hair. She knows something hit her, but she’s not sure what. Tiffany clasps a hand over her mouth and giggles. Tiffany is always the one leading the attacks on Marjorie lately. Tiffany has long blond hair that’s silky and beautiful, and every boy in the class has a secret crush on her. But she doesn’t care about boys—all she seems to care about is picking on Marjorie. It’s her favorite thing.
+
+“Let me try!” Amanda Cutraro says. She takes her own straw and repeats the process. Soon enough, a second damp spitball has lodged itself in Marjorie’s hair. A third bounces off her hair and falls into her hoodie.
+
+The worst part is Marjorie can’t seem to find the spitballs. We watch her feel around the back of her head, her fingers searching, but she’s nowhere close. She turns around to glare at us, and the table dissolves into giggles.
+
+“Nora,” Tiffany says, “you want to try?”
+
+I shake my head no.
+
+“Why not?” Tiffany says.
+
+I shrug. “I don’t feel like it.”
+
+If I were someone else, Tiffany probably would’ve twisted my arm to get me to do it. But Tiffany doesn’t mess with me. She and I have an understanding.
+
+By the end of the lunch period, when Marjorie brings her tray to the garbage, she’s got no less than a dozen spitballs still in her hair. She managed to get a few out, but most of them are stuck to the strands of her hair like glue. She’ll probably have them in there all day.
+
+After lunch is recess. Marjorie has her book as always and I watch her walk (or waddle) to the far end of the playground to read alone. The other girls are going off to play hopscotch, but I don’t join them today. Instead, I walk over to where Marjorie is sitting. Without waiting for her to say anything, I sit down next to her.
+
+“Hi,” I say.
+
+Marjorie looks up at me. “Did the other girls send you over here to make fun of me?”
+
+“No.”
+
+She narrows her watery brown eyes at me. “Then what are you doing here, Nora?”
+
+“You were all alone. I thought you might want somebody to talk to.”
+
+Marjorie snorts. “If you talk to me, the other girls won’t be friends with you anymore. They’ll think you’re a loser, like me.”
+
+“I’m not too worried about that,” I answer honestly.
+
+For the first time since I sat down, I see a little seed of hopefulness on Marjorie’s face. In all the time I’ve known her, since we’ve been in first grade, she’s never had a real friend. And even though I have had groups of girls that I’ve hung out with, she knows I’ve never had a close friend either. She thinks maybe there’s something here.
+
+That’s exactly what I want her to think.
+
+“Listen,” I say. “I promised Tiffany I would play with them today, but I think we should hang out sometime. If you want.”
+
+“Um…” Marjorie chews on her lower lip. “You really want to?”
+
+I bob my head. “I think you’re nice. It’s so unfair that the other girls are mean to you.”
+
+A teeny tiny smile blossoms on Marjorie’s lips. “Well, okay. We can hang out if you want. When?”
+
+“How about after school today? We can walk home together.”
+
+She makes a face. “My mom is picking me up right after school today. I’ve got a dentist appointment.”
+
+I try not to let my disappointment show. “That’s okay. How about tomorrow after school?”
+
+She’s smiling for real now. “Okay, sure!”
+
+“Great!” I return the smile, which feels plastic on my lips. “But here’s the thing. You can’t tell anybody we’re going to hang out.”
+
+She frowns. “I can’t?”
+
+“Think about it,” I say. “Our friendship has got to be a secret. If you tell other people, Tiffany is going to find out, and then she’s going to try to convince me not to hang out with you. I don’t want that.” I raise my eyebrows. “Do you?”
+
+Marjorie shakes her head slowly. “No…”
+
+“You probably shouldn’t even tell your parents,” I say. “Because you know how all the parents talk to each other.”
+
+“Right,” she says, although she doesn’t look entirely convinced.
+
+I wish Marjorie had agreed to meet me after school today. That would make things so much simpler. I wouldn’t have to worry about her blabbing to the world. “If you tell anyone,” I say, “including your parents, then we can’t hang out tomorrow. Okay?”
+
+“Okay,” she finally agrees.
+
+I stare her in the eyes, wondering if I can trust her. I think I can. Marjorie Baker has never had a friend, and she wants one. Desperately. She wants to believe so badly that I want to hang out with her. She wants to believe that I’m doing this because I actually like her, and not because Tiffany put me up to it.
+
+Well, Tiffany didn’t put me up to this.
+
+It’s something much worse.
+
+_____
+
+
+
+“I’m going to be late coming home from school tomorrow,” I tell my parents during dinner.
+
+“Oh?” Mom spoons a bite of casserole into her mouth. “What time?”
+
+“Maybe an hour? I just need to look some stuff up at the library.”
+
+“Okay,” Mom says. “Just give</pre></div>                                                                    </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="height:60px">
+                    <td id="footer" valign="top">
+                        <div class="container-fluid">
+<!-- footer begin -->
+<div class="row ">
+        <div class="footer-copyright w-5-hide w-3-2-show-inline">
+        <span class="w-5-hide w-1-2-show p-left-0">Since 2009.</span>
+        <span class="w-3-show w-1-2-hide p-left-0">Free ebooks since 2009.</span>
+    </div>
+        <div class="footer-right w-5-hide w-4-2-show">
+        <div class="footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                
+        <li class="icon-link">
+            <a href="/android" title="<div style='white-space: nowrap;'>ZLibrary app</div>" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-android.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-android-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+        
+        <li class="icon-link">
+            <button onclick="window.location.replace('http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion')" data-toggle="tooltip" data-placement="top" data-html="true" title="<div style='white-space: nowrap;'>TOR version</div>" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-tor.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-tor-gray.svg" class="gray" width="36" height="36">
+            </button>
+        </li>
+                    </ul>
+        </div>
+    </div>
+    <div class="footer-copyright w-3-2-show">
+        <span class="w-5-show w-3-hide p-left-0">Free ebooks since 2009.</span>
+        <span class="w-3-p-left-0">
+            <a class="footer-mailto" href="mailto: support@bookmail.org">support@bookmail.org</a>
+        </span>
+        <span class=""> <a href="/faq.php">FAQ</a></span>
+        <span class=""> <a href="/blog/">Blog</a></span>
+    </div>
+    <div class="footer-right w-4-2-left">
+        <div class="footer-nav-right" role="navigation">
+            <ul class="nav navbar-nav">
+                
+        <li class="icon-link">
+            <a href="/android" title="<div style='white-space: nowrap;'>ZLibrary app</div>" data-toggle="tooltip" data-html="true" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-android.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-android-gray.svg" class="gray" width="36" height="36">
+            </a>
+        </li>
+        
+        <li class="icon-link">
+            <button onclick="window.location.replace('http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion')" data-toggle="tooltip" data-placement="top" data-html="true" title="<div style='white-space: nowrap;'>TOR version</div>" onmouseover="$(this).tooltip('show')">
+                <img src="/img/icon-tor.svg" class="colored" width="36" height="36">
+                <img src="/img/icon-tor-gray.svg" class="gray" width="36" height="36">
+            </button>
+        </li>
+                                            <li class="find-the-error w-4-hide">Find the error                        <i class="tooltip-init" data-placement="top" title="<div style='white-space: nowrap;'>To report a spelling error, select <br/> the text and click Ctrl+Enter</div>"></i>
+                    </li>
+                                <li class="w-4-p-left-0"><a href="/privacy.php">Privacy</a></li>
+                <li><a href="/dmca.php">DMCA</a></li>
+                <li class="dropup p-right-0" style="white-space: nowrap;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    English <span class="caret"></span>
+</a>
+<ul class="dropdown-menu language-list">
+<li><a href="//ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=en">English</a></li><li><a href="//ru.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ru">Русский</a></li><li><a href="//es.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=es">Español</a></li><li><a href="//it.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=it">Italiano</a></li><li><a href="//el.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=el">ελληνικά</a></li><li><a href="//ar.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ar">اللغة العربية</a></li><li><a href="//id.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=id">Bahasa Indonesia</a></li><li><a href="//ms.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ms">Bahasa Malaysia</a></li><li><a href="//hi.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=hi">हिन्दी</a></li><li><a href="//de.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=de">Deutsch</a></li><li><a href="//fr.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=fr">Français</a></li><li><a href="//pt.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=pt">Português</a></li><li><a href="//uk.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=uk">Українська</a></li><li><a href="//pl.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=pl">Polski</a></li><li><a href="//zh.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=zh">汉语</a></li><li><a href="//ja.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ja">日本語</a></li><li><a href="//vi.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=vi">Tiếng Việt</a></li><li><a href="//az.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=az">Azərbaycan Dili</a></li><li><a href="//hy.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=hy">Հայոց լեզու</a></li><li><a href="//th.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=th">ภาษาไทย</a></li><li><a href="//tr.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=tr">Türk Dili</a></li><li><a href="//ka.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ka">ქართველი</a></li><li><a href="//bn.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=bn">বাংলা</a></li><li><a href="//ps.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ps">پښتو</a></li><li><a href="//te.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=te">తెలుగు</a></li><li><a href="//ur.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ur">اردو</a></li><li><a href="//ko.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=ko">한국어</a></li><li><a href="//sr.ng1lib.org/book/15468587/430fe3/?wrongHash=&switchLanguage=sr">Srpski</a></li></ul>                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- icons preload hack -->
+        <i class="zlibicon-check" style="font-size: 1px; visibility: hidden; position: absolute; top: 0; left: 0;"></i>
+
+        <div class="modal fade" id="zlibrary-modal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header hidden">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body" style="position: relative; min-height: 80px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-styled" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">                    
+                    <div class="modal-header hidden">
+                        <h1 class="modal-title"></h1>
+                    </div>
+                    <div class="modal-body"></div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>    
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="zlibrary-modal-auth" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ggAdditionalHtml -->
+        <!--LiveInternet counter--><script type="text/javascript">
+new Image().src = "//counter.yadro.ru/hit;bookzz?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();</script><!--/LiveInternet-->
+
+<iframe name="uploader" id="uploader" style="border:0px solid #ddd; width:90%; display:none;"></iframe><script></script>        <!-- /ggAdditionalHtml -->
+        
+                
+        <script>
+            if (typeof pagerOptions !== "undefined" && pagerOptions) {
+                $('div.paginator').paginator(pagerOptions);
+                /* Если задана страница больше чем последняя - редирект на последнюю */
+                let page = parseInt((new URL(document.location)).searchParams.get("page"));
+                if (page > pagerOptions.pagesTotal) document.location.href = document.location.href.replace(/page=\d+/gi, "page="+pagerOptions.pagesTotal);
+            }
+        </script>
+    </body>
+</html>
+
