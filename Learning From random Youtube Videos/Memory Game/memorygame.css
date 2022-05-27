@@ -1,0 +1,33 @@
+img {
+    height: 200px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 41vh;
+    margin-right: 41vh;
+
+}
+
+.child {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    flex: 0 1 21%;
+    /* explanation below */
+
+
+}
+body
+{
+    background: linear-gradient(to right, hsl(51, 100%, 82%), hsl(66, 86%, 67%), hsl(69, 88%, 62%), hsl(103, 96%, 78%));
+}
