@@ -1,0 +1,8 @@
+
+        So instread of using div you could use other semantic elements like
+        <main> -- for the main subject of the side nav and sidebar not included https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+        <section> -- for a section of the main object there could be multiple section in a main and in a sitehttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
+        <article> -- self contain element independent/reusablehttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+        <aside>-- not essential to the site or indirectlyrelated e.g the side barhttps://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside
+        <header> -- introductury content of site or of an article
+        <footer> -- ending element of a site or an article 

@@ -2,16 +2,20 @@ img {
     height: 200px;
 
 }
-h1{
+
+h1 {
     display: flex;
+    font-size: 60px;
     justify-content: center;
+    position: sticky;
 }
+
 .grid {
     display: flex;
     flex-flow: row wrap;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 41vh;
+    margin-left: 52vh;
     margin-right: 41vh;
 
 }
@@ -21,13 +25,12 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-    flex: 0 1 21%;
+    flex: 0 0 21%;
     /* explanation below */
 
 
 }
-body
-{
+
+body {
     background: linear-gradient(to right, hsl(51, 100%, 82%), hsl(66, 86%, 67%), hsl(69, 88%, 62%), hsl(103, 96%, 78%));
 }

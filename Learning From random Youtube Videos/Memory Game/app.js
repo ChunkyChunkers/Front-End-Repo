@@ -17,15 +17,15 @@ const cardArray = [
     },
     {
         name: 'ice-cream',
-        img: 'Images/icecreamjpg',
+        img: 'Images/icecream.jpg',
+    },
+    {
+        name: 'drink',
+        img: 'Images/drink.jpg',
     },
     {
         name: 'pizza',
         img: 'Images/pizza.jpg',
-    },
-    {
-        name: 'fries',
-        img: 'Images/fries.jpg',
     },
     {
         name: 'milk-shake',
@@ -49,15 +49,15 @@ const cardArray = [
     },
     {
         name: 'ice-cream',
-        img: 'Images/icecreamjpg',
+        img: 'Images/icecream.jpg',
     },
     {
         name: 'pizza',
         img: 'Images/pizza.jpg',
     },
     {
-        name: 'fries',
-        img: 'Images/fries.jpg',
+        name: 'drink',
+        img: 'Images/drink.jpg',
     },
     {
         name: 'milk-shake',
@@ -66,7 +66,8 @@ const cardArray = [
 ]
 cardArray.sort(() => 0.5 - Math.random())
 
-
+const cardsChosen = [];
+const cardsChosenId = []
 const gridDisplay = document.querySelector('.grid')
 console.log(gridDisplay)
 
@@ -95,6 +96,25 @@ function createBoard() {
     }
 }
 createBoard();
+function checkCards() {
+    const cards = document.querySelector('.grid img')
+    console.log('check for match')
+    if (cardsChosen[0] == cardsChosen[1]) {
+     alert('You found A match')  
+     cards[cardsChosenId[0]].setAttribute('src', 'Images/white.wepb') 
+    }
+    
+}
+
+
 function flipCard() {
-    console.log('click')
+    console.log(cardArray)
+    const cardId = this.getAttribute('data-id')
+    cardsChosenId.push(cardId)
+    console.log(cardsChosenId)
+    cardsChosen.push(cardArray[cardId].name)
+    this.setAttribute('src', cardArray[cardId].img)
+    if (cardsChosen.length === 2) {
+        setTimeout(checkCards, 500)
+    }
 }
