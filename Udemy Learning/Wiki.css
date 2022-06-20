@@ -10,10 +10,40 @@ p {
 
 h1 {
     border-bottom: 1px solid white;
-    font-size:  28.8px;
+    font-size: 28.8px;
 }
 
 h2 {
     border-bottom: 1px solid white;
-    font-size:  21px;
+    font-size: 21px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }

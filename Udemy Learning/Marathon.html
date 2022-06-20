@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/tacos">
+        <div>
+            <label for="Fname">First Name</label>
+            <input type="text" name="Firstname" id="Fname" required>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="Lastname" id="Lname"required>
+        </div>
+        <p>Select a race:</p>
+        <div>
+            <div>
+                <input type="radio" name="race" id="5k">
+                <label for="5k">Fun Run 5k</label>
+            </div>
+            <div>
+                <input type="radio" name="race" id="Hmara">
+                <label for="Hmara">Half Marathon</label>
+             </div>
+            <div>
+                <input type="radio" name="race" id="Fmara">
+                <label for="Fmara">Full Marathon</label>
+            </div>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password"></label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <label for="age-select">Select Age group</Select></label>
+        <select name="age" id="age-select">
+            <option value="under 18">under 18</option>
+            <option value="18+">18-25</option>
+            <option value="25+">25-50</option>
+            <option value="50+">50-65</option>
+        </select>
+        <button>Register</button>
+    </form>
+</body>
+</html>

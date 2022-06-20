@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+
+    <form action="/tacos">
+        <button type="reset"> reset form</button>
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input type="text" placeholder="Username" id="username" name="username">
+
+        </p>
+        <p>
+            <label for="Age">How old are you:</label>
+            <input type="number" placeholder="Age" id="Age" name="age">
+        </p>
+        <p>
+            <label for="color">Your favourite color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="password">Enter a password:</label>
+            <input type="password" placeholder="Password" name="password">
+        </p>
+        <button type="button">Submit</button>
+        <input type="submit" value="Click me">
+    </form>
+    <br>
+    <br>
+
+    <hr>
+    <h1>Hijackicing Servers</h1>
+    <h2>Search Reddit</h2>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q" id="">
+        <button>Search Reddit</button>
+    </form>
+    <h2>Search Google</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <h2>Search Youtube</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search Youtube</button>
+    </form>
+    <br>
+    <br>
+
+    <hr>
+    <h1>Other</h1>
+    <!-- You can check multiple Items in a check box -->
+    <form action="/birds">
+        <p>
+            <input type="checkbox" id="Agree" name="Agree_tos" checked>
+            <label for="Agree">I agree to the terms and conditions </
+        </p>label>
+    </form>
+    <!-- You can check only one item in a radio form -->
+    <form action="/birds">
+        <p>
+            <input type="radio" id="4pcs" name="food" value="4pcs">
+            <label for="4pcs">4 piece chicken</label>
+            <input type="radio" id="6pcs" name="food" value="6pcs">
+            <label for="6pcs">6 piece chicken</label>
+            <input type="radio" id="12pcs" name="food" value ="12pcs">
+            <label for="12pcs">12 piece chicken</label>
+        </p>
+       
+        <p>
+            <label for="Language-select">Select Your Language</label>
+            <select name="Language" id="Language-select">
+             <option value="English">English</option>
+             <option value="French">French</option>
+             <option value="Chinese">Chinese</option>
+             <option value="Japanese">Japanese</option>
+             <option value="español">Spanish</option>
+            </select>
+        </p>
+        <p>
+            <label for="sauce">Amount of sauce</label>
+            <input type="range" id="sauce" min="0" step="10" max="100" name="sauce_amount" >
+
+        </p>
+        <p>
+            <label for="special">Leave Special case Here</label><br>
+            <textarea name="special" id="special" cols="30" rows="10"></textarea>
+        </p>
+ <button>Submit</button>
+    </form>
+    <hr>
+    <h2>validation demo</h2>
+    <form action="/dummy">
+        <p>
+            <label for="first">Enter First Name:</label>
+            <input type ="text" name="Firstname" id="FName" placeholder="FirstName" id="first" required>
+        </p>
+        <p>
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" id="Uname" placeholder="Username" id="username" minlength="5" maxlength = "20" required>
+        </p>
+        <button>Submit</button>
+        
+    </form>
+
+</body>
+
+</html>
