@@ -1,0 +1,29 @@
+
+img
+{
+    border: 2px solid black;
+    height: 19px;
+    width: 18px
+    
+}
+a
+{
+    border: 2px solid black;
+    height: 20px;
+    text-decoration: none;
+    
+     
+
+
+}
+span
+{
+    align-items: flex-start;
+    
+}
+
+.test
+{
+    display: grid;
+    
+}

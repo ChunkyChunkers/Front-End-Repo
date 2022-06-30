@@ -10,25 +10,13 @@ h1 {
     position: sticky;
 }
 
-.grid {
-    display: flex;
-    flex-flow: row wrap;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 52vh;
-    margin-right: 41vh;
-
-}
-
-.child {
-
+.grid
+{
+    width: 800px;
+    height: 800px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    flex: 0 0 21%;
-    /* explanation below */
-
-
+    position: absolute;
 }
 
 body {

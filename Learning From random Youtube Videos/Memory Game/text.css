@@ -1,0 +1,12 @@
+h1
+{
+    text-align: center; 
+    font-weight: bold;  
+    text-decoration: overline wavy 2px purple;
+    letter-spacing: 10px;
+}
+p
+{
+    text-align: center;
+    line-height: 2;
+}

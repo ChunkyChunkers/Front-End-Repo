@@ -66,10 +66,11 @@ const cardArray = [
 ]
 cardArray.sort(() => 0.5 - Math.random())
 
-const cardsChosen = [];
-const cardsChosenId = []
+let cardsChosen = []
+let cardsChosenId = []
 const gridDisplay = document.querySelector('.grid')
-console.log(gridDisplay)
+const resultDisplay = document.querySelector('#result')
+const cardsWon = []
 
 
 
@@ -88,33 +89,50 @@ function createBoard() {
         card.setAttribute('data-id', index)
         card.classList.add("child")
         card.addEventListener('click', flipCard)
-
-        console.log(card, index)
         gridDisplay.appendChild(card)
-
+        
 
     }
 }
 createBoard();
+
 function checkCards() {
-    const cards = document.querySelector('.grid img')
-    console.log('check for match')
-    if (cardsChosen[0] == cardsChosen[1]) {
-     alert('You found A match')  
-     cards[cardsChosenId[0]].setAttribute('src', 'Images/white.wepb') 
-    }
     
+    const cards = document.querySelectorAll('.grid img')
+    const optionOneId = cardsChosenId[0]
+    const optionTwoId = cardsChosenId[1]
+  
+    if (cardsChosen[0] == cardsChosen[1] && optionOneId != optionTwoId) {
+        cards[optionOneId].setAttribute('src', 'Images/test3.jpg')
+        cards[optionTwoId].setAttribute('src', 'Images/test3.jpg')
+        cards[optionOneId].removeEventListener('click', flipCard)
+        cards[optionTwoId].removeEventListener('click', flipCard)
+        cardsWon.push(cardsChosen)
+    }
+    else {
+        cards[optionOneId].setAttribute('src', 'Images/blank.png')
+        cards[optionTwoId].setAttribute('src', 'Images/blank.png')
+    }
+    cardsChosen = []
+    cardsChosenId = []
+    resultDisplay.innerHTML = cardsWon.length
+
+    if (cardsWon.length =  cardArray.length/2 ) {
+        resultDisplay.innerHTML("Congratulations you've matched them all!!")
+    }
+
+
 }
 
 
 function flipCard() {
-    console.log(cardArray)
     const cardId = this.getAttribute('data-id')
     cardsChosenId.push(cardId)
-    console.log(cardsChosenId)
     cardsChosen.push(cardArray[cardId].name)
     this.setAttribute('src', cardArray[cardId].img)
+
     if (cardsChosen.length === 2) {
         setTimeout(checkCards, 500)
     }
+
 }

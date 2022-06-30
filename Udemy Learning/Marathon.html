@@ -1,20 +1,27 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="marathon.css">
     <title>Document</title>
 </head>
+
 <body>
     <form action="/tacos">
-        <div>
-            <label for="Fname">First Name</label>
-            <input type="text" name="Firstname" id="Fname" required>
-            <label for="Lname">Last Name</label>
-            <input type="text" name="Lastname" id="Lname"required>
+        <div class="name">
+            <p>
+                <label for="Fname">First Name</label>
+                <input type="text" name="Firstname" id="Fname" required>
+            </p>
+            <p>
+                <label for="Lname">Last Name</label>
+                <input type="text" name="Lastname" id="Lname" required>
+            </p>
         </div>
         <p>Select a race:</p>
-        <div>
+        <div class="test">
             <div>
                 <input type="radio" name="race" id="5k">
                 <label for="5k">Fun Run 5k</label>
@@ -22,10 +29,13 @@
             <div>
                 <input type="radio" name="race" id="Hmara">
                 <label for="Hmara">Half Marathon</label>
-             </div>
+            </div>
             <div>
                 <input type="radio" name="race" id="Fmara">
                 <label for="Fmara">Full Marathon</label>
+            </div>
+            <div>
+                test
             </div>
         </div>
         <div>
@@ -41,7 +51,15 @@
             <option value="25+">25-50</option>
             <option value="50+">50-65</option>
         </select>
-        <button>Register</button>
+    
+            
+                <span class="deez">
+                    <button class="reg">Register</button>
+                    &#9993;
+                
+                </span>
+        
     </form>
 </body>
+
 </html>
